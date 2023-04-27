@@ -1,0 +1,1640 @@
+﻿Log file open, 04/18/23 17:03:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=0)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=0)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=0)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=20968)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: Bomberman
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCore: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark'
+LogCore: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.1-CL-23901901"
+LogCsvProfiler: Display: Metadata set : engineversion="5.1.1-23901901+++UE5+Release-5.1"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\Jumbax\Documents\Unreal Projects\Bomberman\Bomberman.uproject"""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.2846] "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 5 2600 Six-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="8eda7a0c454175363cc4f2bb45f8b572"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 2.934097
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-1537B82D40BCB3F7FF299A87FD8297B0
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading HoloLens ini files took 0.06 seconds
+LogConfig: Display: Loading Mac ini files took 0.06 seconds
+LogConfig: Display: Loading IOS ini files took 0.07 seconds
+LogConfig: Display: Loading Android ini files took 0.07 seconds
+LogConfig: Display: Loading Unix ini files took 0.07 seconds
+LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.08 seconds
+LogConfig: Display: Loading Linux ini files took 0.08 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin Iris
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GLTFImporter
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Found config from plugin[Interchange] Game
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/UVEditor/Content/' mounted to '/UVEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+LogInit: Using libcurl 7.83.1
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1n
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.12
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Build: ++UE5+Release-5.1-CL-23901901
+LogInit: Engine Version: 5.1.1-23901901+++UE5+Release-5.1
+LogInit: Compatible Engine Version: 5.1.0-23058290+++UE5+Release-5.1
+LogInit: Net CL: 23058290
+LogInit: OS: Windows 10 (22H2) [10.0.19045.2846] (), CPU: AMD Ryzen 5 2600 Six-Core Processor            , GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Jan 30 2023 05:19:00
+LogInit: Compiled with Visual C++: 19.29.30147.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.1
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.1/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 35
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 80
+LogDevObjectVersion:   FortniteNC (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 10
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 4
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 88
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 41
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
+LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2023.04.18-15.03.50:724][  0]LogConfig: Set CVar [[r.VSync:0]]
+[2023.04.18-15.03.50:724][  0]LogConfig: Set CVar [[r.RHICmdBypass:0]]
+[2023.04.18-15.03.50:724][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.04.18-15.03.50:724][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.04.18-15.03.50:724][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.04.18-15.03.50:724][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2023.04.18-15.03.50:724][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.04.18-15.03.50:724][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2023.04.18-15.03.50:724][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2023.04.18-15.03.50:724][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2023.04.18-15.03.50:724][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs:0]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[r.Mobile.EnableNoPrecomputedLightingCSMShader:1]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.04.18-15.03.50:725][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.04.18-15.03.50:725][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2023.04.18-15.03.50:725][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.04.18-15.03.50:725][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.04.18-15.03.50:725][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.04.18-15.03.50:725][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.04.18-15.03.50:725][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.VerifyGCObjectNames:1]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Set CVar [[gc.PendingKillEnabled:1]]
+[2023.04.18-15.03.50:726][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2023.04.18-15.03.50:726][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2023.04.18-15.03.50:735][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.04.18-15.03.50:735][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2023.04.18-15.03.50:735][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2023.04.18-15.03.50:735][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.04.18-15.03.50:735][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2023.04.18-15.03.50:735][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2023.04.18-15.03.50:735][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2023.04.18-15.03.50:735][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:100]]
+[2023.04.18-15.03.50:735][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.TSR.History.GrandReprojection:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.TSR.Velocity.Extrapolation:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: CVar [[r.TSR.Velocity.HoleFill:1]] deferred - dummy variable created
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0.125]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:70.711]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.DetailMode:2]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.04.18-15.03.50:736][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.04.18-15.03.50:737][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.04.18-15.03.50:737][  0]LogConfig: CVar [[fx.Niagara.QualityLevel:3]] deferred - dummy variable created
+[2023.04.18-15.03.50:737][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.04.18-15.03.50:737][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2023.04.18-15.03.50:737][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2023.04.18-15.03.50:737][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.04.18-15.03.50:737][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.04.18-15.03.50:737][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.04.18-15.03.50:737][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.04.18-15.03.50:737][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.04.18-15.03.50:737][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2023.04.18-15.03.50:783][  0]LogD3D12RHI: Aftermath initialized
+[2023.04.18-15.03.50:783][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2023.04.18-15.03.51:075][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 1050 Ti (Max supported Feature Level 12_1, shader model 6.6)
+[2023.04.18-15.03.51:075][  0]LogD3D12RHI: Adapter has 4018MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 2 output[s]
+[2023.04.18-15.03.51:093][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2023.04.18-15.03.51:093][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8165MB of shared system memory, 0 output[s]
+[2023.04.18-15.03.51:093][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2023.04.18-15.03.51:093][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.04.18-15.03.51:094][  0]LogHAL: Display: Platform has ~ 16 GB [17124589568 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.04.18-15.03.51:096][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2023.04.18-15.03.51:096][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.04.18-15.03.51:097][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.04.18-15.03.51:104][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2023.04.18-15.03.51:104][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.04.18-15.03.51:104][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.04.18-15.03.51:104][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.04.18-15.03.51:104][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/Config/WindowsEditor/Editor.ini]
+[2023.04.18-15.03.51:105][  0]LogInit: Computer: DESKTOP-CCFVR42
+[2023.04.18-15.03.51:105][  0]LogInit: User: Jumbax
+[2023.04.18-15.03.51:105][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.04.18-15.03.51:105][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.04.18-15.03.51:105][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.04.18-15.03.51:105][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2023.04.18-15.03.51:105][  0]LogMemory: Process Physical Memory: 294.55 MB used, 308.22 MB peak
+[2023.04.18-15.03.51:105][  0]LogMemory: Process Virtual Memory: 288.93 MB used, 288.93 MB peak
+[2023.04.18-15.03.51:105][  0]LogMemory: Physical Memory: 5881.44 MB used,  10449.84 MB free, 16331.28 MB total
+[2023.04.18-15.03.51:105][  0]LogMemory: Virtual Memory: 8796.86 MB used,  13166.42 MB free, 21963.28 MB total
+[2023.04.18-15.03.51:105][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.04.18-15.03.51:113][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.04.18-15.03.51:144][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.04.18-15.03.51:148][  0]LogInit: Using OS detected language (it-IT).
+[2023.04.18-15.03.51:148][  0]LogInit: Using OS detected locale (it-IT).
+[2023.04.18-15.03.51:203][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so 'it' will be used for the language.
+[2023.04.18-15.03.51:203][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/it/Editor.locres' could not be opened for reading!
+[2023.04.18-15.03.51:203][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/it/EditorTutorials.locres' could not be opened for reading!
+[2023.04.18-15.03.51:203][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/it/Keywords.locres' could not be opened for reading!
+[2023.04.18-15.03.51:203][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/it/Category.locres' could not be opened for reading!
+[2023.04.18-15.03.51:204][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/it/ToolTips.locres' could not be opened for reading!
+[2023.04.18-15.03.51:204][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/it/PropertyNames.locres' could not be opened for reading!
+[2023.04.18-15.03.51:204][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/it/Engine.locres' could not be opened for reading!
+[2023.04.18-15.03.51:232][  0]LogInit: Setting process to per monitor DPI aware
+[2023.04.18-15.03.51:264][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2023.04.18-15.03.51:264][  0]LogWindowsTextInputMethodSystem:   - Italiano (Italia) - (Keyboard).
+[2023.04.18-15.03.51:264][  0]LogWindowsTextInputMethodSystem:   - Inglese (Regno Unito) - (Keyboard).
+[2023.04.18-15.03.51:264][  0]LogWindowsTextInputMethodSystem: Activated input method: Italiano (Italia) - (Keyboard).
+[2023.04.18-15.03.51:351][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2023.04.18-15.03.51:351][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.04.18-15.03.54:221][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2023.04.18-15.03.54:222][  0]LogWindows: Attached monitors:
+[2023.04.18-15.03.54:222][  0]LogWindows:     resolution: 1920x1200, work area: (0, 0) -> (1920, 1160), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.04.18-15.03.54:222][  0]LogWindows:     resolution: 1920x1200, work area: (-1920, 0) -> (0, 1160), device: '\\.\DISPLAY2'
+[2023.04.18-15.03.54:222][  0]LogWindows: Found 2 attached monitors.
+[2023.04.18-15.03.54:222][  0]LogWindows: Gathering driver information using Windows Setup API
+[2023.04.18-15.03.54:223][  0]LogRHI: RHI Adapter Info:
+[2023.04.18-15.03.54:224][  0]LogRHI:             Name: NVIDIA GeForce GTX 1050 Ti
+[2023.04.18-15.03.54:224][  0]LogRHI:   Driver Version: 516.94 (internal:31.0.15.1694, unified:516.94)
+[2023.04.18-15.03.54:224][  0]LogRHI:      Driver Date: 7-21-2022
+[2023.04.18-15.03.54:225][  0]LogD3D12RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2023.04.18-15.03.54:226][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2023.04.18-15.03.54:232][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2023.04.18-15.03.54:232][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2023.04.18-15.03.54:325][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2023.04.18-15.03.54:326][  0]LogD3D12RHI: Bindless resources are supported
+[2023.04.18-15.03.54:326][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2023.04.18-15.03.54:326][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2023.04.18-15.03.54:326][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2023.04.18-15.03.54:326][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2023.04.18-15.03.54:388][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (3D)
+[2023.04.18-15.03.54:388][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Copy)
+[2023.04.18-15.03.54:389][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Compute)
+[2023.04.18-15.03.54:501][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2023.04.18-15.03.54:501][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2023.04.18-15.03.54:503][  0]LogRHI: Texture pool is 2151 MB (70% of 3073 MB)
+[2023.04.18-15.03.54:504][  0]LogD3D12RHI: Async texture creation enabled
+[2023.04.18-15.03.54:504][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2023.04.18-15.03.54:604][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject"  -platform=all'
+[2023.04.18-15.03.54:605][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/TurnkeyReport_0.log" -log="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/TurnkeyLog_0.log" -project="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject"  -platform=all" ]
+[2023.04.18-15.03.54:663][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2023.04.18-15.03.54:663][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2023.04.18-15.03.54:663][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2023.04.18-15.03.54:663][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2023.04.18-15.03.54:663][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2023.04.18-15.03.54:663][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.8
+[2023.04.18-15.03.54:663][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2023.04.18-15.03.54:667][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.6.dll
+[2023.04.18-15.03.54:671][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+[2023.04.18-15.03.54:675][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2023.04.18-15.03.54:680][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.04.18-15.03.54:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.04.18-15.03.54:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2023.04.18-15.03.54:728][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2023.04.18-15.03.54:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.04.18-15.03.54:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.04.18-15.03.54:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.04.18-15.03.54:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.04.18-15.03.54:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.04.18-15.03.54:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.04.18-15.03.54:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.04.18-15.03.54:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.04.18-15.03.54:751][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.04.18-15.03.54:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.04.18-15.03.54:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.04.18-15.03.54:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.04.18-15.03.54:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.04.18-15.03.54:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.04.18-15.03.54:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.04.18-15.03.54:769][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.04.18-15.03.54:791][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.04.18-15.03.54:797][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2023.04.18-15.03.54:797][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2023.04.18-15.03.54:797][  0]LogTargetPlatformManager:   ADPCM
+[2023.04.18-15.03.54:797][  0]LogTargetPlatformManager:   PCM
+[2023.04.18-15.03.54:804][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2023.04.18-15.03.54:804][  0]LogTargetPlatformManager:   BINKA
+[2023.04.18-15.03.54:804][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2023.04.18-15.03.54:804][  0]LogTargetPlatformManager:   OGG
+[2023.04.18-15.03.54:804][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2023.04.18-15.03.54:804][  0]LogTargetPlatformManager:   OPUS
+[2023.04.18-15.03.55:049][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   SF_METAL
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.04.18-15.03.55:068][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.04.18-15.03.55:094][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.04.18-15.03.55:094][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.04.18-15.03.55:094][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.04.18-15.03.55:094][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.04.18-15.03.55:094][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.04.18-15.03.55:094][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.04.18-15.03.55:094][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.04.18-15.03.55:094][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2023.04.18-15.03.55:107][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.04.18-15.03.55:107][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.04.18-15.03.55:107][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.04.18-15.03.55:107][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.04.18-15.03.55:158][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1363 MiB)
+[2023.04.18-15.03.55:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.04.18-15.03.55:160][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.04.18-15.03.55:235][  0]LogDerivedDataCache: Speed tests for C:/Users/Jumbax/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.08 seconds
+[2023.04.18-15.03.55:235][  0]LogDerivedDataCache: Display: Performance to C:/Users/Jumbax/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.40ms. RandomReadSpeed=15.14MBs, RandomWriteSpeed=101.96MBs. Assigned SpeedClass 'Local'
+[2023.04.18-15.03.55:237][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jumbax/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.04.18-15.03.55:237][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.04.18-15.03.55:237][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.04.18-15.03.55:237][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2023.04.18-15.03.55:237][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2023.04.18-15.03.55:255][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/Shaders/WorkingDirectory/15820/).
+[2023.04.18-15.03.55:256][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jumbax/AppData/Local/Temp/UnrealShaderWorkingDir/3F8496FF4824A5A42FA6E6B1D4F234A0/'.
+[2023.04.18-15.03.55:259][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.04.18-15.03.55:259][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 9 workers.
+[2023.04.18-15.03.58:200][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2023.04.18-15.04.01:128][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2023.04.18-15.04.01:129][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.04.18-15.04.03:346][  0]LogSlate: Using FreeType 2.10.0
+[2023.04.18-15.04.03:364][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.04.18-15.04.03:471][  0]LogAssetRegistry: FAssetRegistry took 0.0208 seconds to start up
+[2023.04.18-15.04.03:487][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2023.04.18-15.04.03:972][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2023.04.18-15.04.04:518][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: Available device profiles:
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EE000][0000095A4E076000 52] GlobalDefaults, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EFA00][0000095A4E7FA000 52] Windows, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EFC00][0000095A4E7F5000 52] WindowsEditor, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590ED200][0000095A4E7F7800 52] WindowsServer, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EEC00][0000095A504F2800 52] WindowsClient, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EDC00][0000095A50E70000 52] IOS, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EF400][0000095A50E77800 52] iPadAir2, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A58B5FE00][0000095A48B9A000 52] IPadPro, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A58B5F600][0000095A4E7F0000 52] iPadAir3, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EF000][0000095A50E75000 52] iPadAir4, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590ED000][0000095A598F0000 52] iPadAir5, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EDE00][0000095A598F5000 52] iPadMini4, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EE600][0000095A598F7800 52] iPadMini5, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A590EF600][0000095A598FA000 52] iPadMini6, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59921C00][0000095A59930000 52] iPhone6S, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59921E00][0000095A59932800 52] iPhone7, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59920800][0000095A59935000 52] iPodTouch7, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59921800][0000095A5993A000 52] iPhone6SPlus, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59921600][0000095A5993C800 52] iPhone7Plus, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59920E00][0000095A5387A000 52] iPhoneSE, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59921000][0000095A598FC800 52] iPhone8, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59920000][0000095A59937800 52] iPhone8Plus, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59922000][0000095A598C0000 52] iPhoneX, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59921200][0000095A598C5000 52] iPhoneXS, 
+[2023.04.18-15.04.04:518][  0]LogDeviceProfileManager: 	[0000095A59922A00][0000095A598C7800 52] iPhoneXSMax, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59922200][0000095A598CA000 52] iPhoneXR, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59922800][0000095A598CC800 52] iPhone11, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59922C00][0000095A598F2800 52] iPhone11Pro, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59920C00][0000095A59890000 52] iPhone11ProMax, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59922E00][0000095A59895000 52] iPhoneSE2, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59923000][0000095A59897800 52] iPhone12Mini, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59920400][0000095A5989A000 52] iPhone12, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59923A00][0000095A5989C800 52] iPhone12Pro, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59923200][0000095A598C2800 52] iPhone12ProMax, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59923800][0000095A59910000 52] iPhone13Mini, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59922400][0000095A59915000 52] iPhone13, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59921A00][0000095A59917800 52] iPhone13Pro, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59922600][0000095A5991A000 52] iPhone13ProMax, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59924000][0000095A5991C800 52] iPhoneSE3, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59920200][0000095A59892800 52] iPhone14, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59924A00][0000095A59940000 52] iPhone14Plus, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59924200][0000095A59945000 52] iPhone14Pro, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59924800][0000095A59947800 52] iPhone14ProMax, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59923E00][0000095A5994A000 52] iPadPro105, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59920600][0000095A5994C800 52] iPadPro129, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59921400][0000095A59912800 52] iPadPro97, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59925000][0000095A59960000 52] iPadPro2_129, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59923400][0000095A59965000 52] iPad5, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59925A00][0000095A59967800 52] iPad6, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59925200][0000095A5996A000 52] iPad7, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59925800][0000095A5996C800 52] iPad8, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59924E00][0000095A59942800 52] iPad9, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59923C00][0000095A598A0000 52] iPad10, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59920A00][0000095A598A5000 52] iPadPro11, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59926000][0000095A598A7800 52] iPadPro2_11, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59924400][0000095A598AA000 52] iPadPro3_11, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59926A00][0000095A598AC800 52] iPadPro4_11, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59926200][0000095A59962800 52] iPadPro3_129, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59926800][0000095A59970000 52] iPadPro4_129, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59925E00][0000095A59975000 52] iPadPro5_129, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59924C00][0000095A59977800 52] iPadPro6_129, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59923600][0000095A5997A000 52] AppleTV, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59927000][0000095A5997C800 52] AppleTV4K, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59925400][0000095A598A2800 52] AppleTV2_4K, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59927A00][0000095A59980000 52] TVOS, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59928800][0000095A59987800 52] Mac, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59928A00][0000095A59985000 52] MacEditor, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59926400][0000095A5998A000 52] MacClient, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59928200][0000095A5998C800 52] MacServer, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59927600][0000095A599B0000 52] Linux, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59928400][0000095A599B2800 52] LinuxEditor, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59926E00][0000095A599B7800 52] LinuxArm64Editor, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59928000][0000095A599BA000 52] LinuxArm64, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59928C00][0000095A599BC800 52] LinuxClient, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59926600][0000095A59972800 52] LinuxArm64Client, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59925600][0000095A599B5000 52] LinuxServer, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59925C00][0000095A59990000 52] LinuxArm64Server, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59928600][0000095A59995000 52] Android, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59929000][0000095A59997800 52] Android_Preview_OpenGL, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59928E00][0000095A5999A000 52] Android_Preview_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59929A00][0000095A5999C800 52] Android_Low, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59927E00][0000095A59982800 52] Android_Mid, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59929200][0000095A599A0000 52] Android_High, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59924600][0000095A599A5000 52] Android_Default, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59926C00][0000095A599A7800 52] Android_Adreno4xx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59929E00][0000095A599AA000 52] Android_Adreno5xx_Low, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992A000][0000095A599AC800 52] Android_Adreno5xx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59927800][0000095A59992800 52] Android_Adreno6xx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992AA00][0000095A59950000 52] Android_Adreno6xx_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59929800][0000095A59955000 52] Android_Adreno7xx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992A200][0000095A59957800 52] Android_Adreno7xx_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59927400][0000095A5995A000 52] Android_Mali_T6xx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59927200][0000095A5995C800 52] Android_Mali_T7xx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992AE00][0000095A599A2800 52] Android_Mali_T8xx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992B000][0000095A599D0000 52] Android_Mali_G71, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59929600][0000095A599D5000 52] Android_Mali_G72, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992BA00][0000095A599D7800 52] Android_Mali_G72_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992A800][0000095A599DA000 52] Android_Mali_G76, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992B200][0000095A599DC800 52] Android_Mali_G76_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59929400][0000095A59952800 52] Android_Mali_G77, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A59929C00][0000095A599E0000 52] Android_Mali_G77_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992BE00][0000095A599E5000 52] Android_Mali_G78, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992C000][0000095A599E7800 52] Android_Mali_G78_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992A600][0000095A599EA000 52] Android_Mali_G710, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992CA00][0000095A599EC800 52] Android_Mali_G710_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992B800][0000095A599D2800 52] Android_Xclipse_920, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992C200][0000095A599F0000 52] Android_Xclipse_920_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992A400][0000095A599F5000 52] Android_Vulkan_SM5, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992AC00][0000095A599F7800 52] Android_PowerVR_G6xxx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992CE00][0000095A599FA000 52] Android_PowerVR_GT7xxx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992D000][0000095A599FC800 52] Android_PowerVR_GE8xxx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992C800][0000095A599E2800 52] Android_PowerVR_GM9xxx, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992CC00][0000095A59A00000 52] Android_PowerVR_GM9xxx_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992D800][0000095A59A05000 52] Android_TegraK1, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992DA00][0000095A59A07800 52] Android_Unknown_Vulkan, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992D600][0000095A59A0A000 52] Oculus_Quest, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992E000][0000095A59A0C800 52] Oculus_Quest2, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: 	[0000095A5992D400][0000095A599F2800 52] HoloLens, 
+[2023.04.18-15.04.04:519][  0]LogDeviceProfileManager: Active device profile: [0000095A590EFC00][0000095A4E7F5000 52] WindowsEditor
+[2023.04.18-15.04.04:519][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2023.04.18-15.04.04:519][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2023.04.18-15.04.04:525][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.04.18-15.04.04:526][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/ShaderAutogen/PCD3D_ES3_1/AutogenShaderHeaders.ush
+[2023.04.18-15.04.04:532][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.04.18-15.04.04:542][  0]LogTurnkeySupport: Turnkey Platform: Android: (Status=Invalid, Allowed_Sdk=r25b, Current_Sdk=, Allowed_AutoSdk=r25b, Current_AutoSdk=, Flags="Platform_InvalidHostPrerequisites", Error="Android SDK directory is not set correctly.")
+[2023.04.18-15.04.04:542][  0]LogTurnkeySupport: Turnkey Platform: IOS: (Status=Invalid, MinAllowed_Sdk=1100.0.0.0, MaxAllowed_Sdk=1499.0, Current_Sdk=, Allowed_AutoSdk=13.3, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2023.04.18-15.04.04:542][  0]LogTurnkeySupport: Turnkey Platform: Linux: (Status=Invalid, Allowed_Sdk=v20_clang-13.0.1-centos7, Current_Sdk=, Allowed_AutoSdk=v20_clang-13.0.1-centos7, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2023.04.18-15.04.04:542][  0]LogTurnkeySupport: Turnkey Platform: LinuxArm64: (Status=Invalid, Allowed_Sdk=v20_clang-13.0.1-centos7, Current_Sdk=, Allowed_AutoSdk=v20_clang-13.0.1-centos7, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2023.04.18-15.04.04:542][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, MinAllowed_Sdk=10.0.00000.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.18362.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists")
+[2023.04.18-15.04.04:550][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/TurnkeyReport_1.log" -log="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/TurnkeyLog_1.log" -project="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject"  -Device=Win64@DESKTOP-CCFVR42'
+[2023.04.18-15.04.04:550][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/TurnkeyReport_1.log" -log="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Intermediate/TurnkeyLog_1.log" -project="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject"  -Device=Win64@DESKTOP-CCFVR42" -nocompile -nocompileuat ]
+[2023.04.18-15.04.04:715][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2023.04.18-15.04.04:977][  0]LogMaterial: Display: WorldGridMaterial-SM6-Default: MATSM_01614A42F67F4FFC8600AD04D15D199F_PCD3D_SM6_2056272690__BC5N_NoCCBN_NoIris_DEV_SL_GV_PreExp_DBuf_UnInt_DXC0_VFO_SKYATM_SKYHF_SLWDFS_gs1_sdct_VT-0-0-1-0_DF_MS_T0_MS_T1_BNDLS_VED_Aniso-1_ComprOodle_Compr2_Lev6_ExclNonPipSh-1_LWC-2097152_3152175004D223CF754F51059EF2CB96AE54674576_Num_SM6_FL_0000000d_MFA_00000008_V_B6A0A753ED62499D8F30931E61FCAB05_0_DB3E993F4E2E98B305AD13B92D8C5DA5_5ED0A2783F630BA5CB3EC77766BEDE91B3ED4A5F___TShadowDepthPSPixelShadowDepth_PerspectiveCorrectF449D5DEDCF833608913E6CD8B760EAB37A0558772C96EE55043153763054472F92891367BC849EC_FLumenCardPS<false>C99F08DFC47581645B636159483DE183E5DB9135B4AFBC835B0E8511B596BB98C6C375E96F613E4D_TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrectF449D5DEDCF833608913E6CD8B760EAB37A055875D9003A07122BE7BD2876C98DF8D858F5E00365D_TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly566268C17842BE32F7F4196A64F1F860A951687BFCFDE4884D635EDF4F18BD3392801DB627240626_FMicropolyRasterizeCS84D2AD0C1762EC1B1A376348479AF93FE79505AD38D66192BF0D34515EC5AD2CDACFA24FFB6B4CAC_TLightMapDensityPSTLightMapPolicyHQC84C3C8B1FA855658F9C0A2A371DDABD1F79452E29E8E0F5F6FD2EDF413A1250AA7BE6E52C951D64_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C72C399F00EA0D8E90CF7BA4C61EF5A3EF74973E9_TBasePassPSTLightMapPolicyLQSkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C2E4EA8FEEED7EE52C208FC54424FEDB2CB987C3B_FLandscapeGrassWeightVSCE760ED4917D7AE7004CF8C6F5F4499E9B97C589A469FA5FCF448A131F926D214995E53915A18256_TLightMapDensityVSFNoLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452E891C1124EC1B5DB941DF1BA5FABB4BBFA352223F_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C69888500E07A0F62E3747DCAFAE5FAC8F032AD04_FHWRasterizeVS84D2AD0C1762EC1B1A376348479AF93FE79505AD48C83E6C6E5EB20B8752F7226BE8C1194A6F8F77_FHitProxyVS7C36940791A54FBE6A358BA344C8BFAD3CAD2B93B282128ADBC0C8F2E22B2C5B575EEDED30A8B7B8_FHitProxyPSF2A8FCCDF8BB1EBC7BCC3C20C862B59EB528CDEF2A74A59EB00EA821209C26349094BBB03F4D6ED5_FLandscapeGrassWeightPSCE760ED4917D7AE7004CF8C6F5F4499E9B97C589106C943CF2E5C6D33DAE5FDC4A4E9B8232B7C78A_TBasePassPSFNoLightMapPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C6C8686026B054D9BD961D4C440F5FDD54CA38C07_FHWRasterizePS84D2AD0C1762EC1B1A376348479AF93FE79505AD48C028453BCF70A104115FCB364BA6A5C3C4AAA0_TShadowDepthVSVertexShadowDepth_OutputDepth566268C17842BE32F7F4196A64F1F860A951687B5C128A2F6D1507D174ED09775E1D5BB050F02683_TDepthOnlyVS<true>77E78BED1A1AECF5E6A7B716F216702EBC4CCE9C2A9A9EB6F6AEC78D04ED0798341235919F1C7EA3_FLandscapePhysicalMaterialPS9BD56FDC1A69F5A3842C3E86AD24E497CDE01F1CBD4AAA5E1E701CB0F79C3E8D450BEF8AC937258A_TLightMapDensityVSFDummyLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452EA8D01D556A2A6347711968CC5B2C44E20848E17B_FLumenCardVSAC81B5EC2471BF6EB1C6B5C0DED961C1BBCB3000617646237FDC69FB38D590AA0B687E0FB01A281E_TShadowDepthPSPixelShadowDepth_VirtualShadowMapF449D5DEDCF833608913E6CD8B760EAB37A05587DFFF0B5EA8BD51A79796C1533647D79F12B2FEBD_TBasePassVSFPrecomputedVolumetricLightmapLightingPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279FB996F0BE2BDCDA243D4A21F958EA439EF10418F_TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435CE098E06E3A7ED4E7D0AE384D374798EAC9E671FB_TBasePassPSFPrecomputedVolumetricLightmapLightingPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C1BF2DD414CE38D1A46E8BD153A9AAA4080A3ED8A_TBasePassPSTLightMapPolicyHQA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C26BD9FE44090B7A8EDCBBA02B66941E951A0847F_FLumenCardPS<true>C99F08DFC47581645B636159483DE183E5DB913510BC213CA7B98C6BDB504A3A124DF8170F9D2A6B_TLightMapDensityPSFDummyLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452E696F9EC07D698191FA845F9186A9C2C14B87D692_TBasePassPSFCachedPointIndirectLightingPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435CEA781543209A66E56FAA33319B50428AB09B65E2_FTranslucentLightingInjectPSCCCA088722FF1CDD2E95226DEA88C3E868FF7BC670CF5C264EEE993F300F770C1E5D8BD55181BC8A_TBasePassVSFCachedPointIndirectLightingPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279D1726533EF0C3E687EA7E3E99D89F6645873B5F6_FHWRasterizeMS84D2AD0C1762EC1B1A376348479AF93FE79505AD82A55489FBDC4449CDA421AFD89E7C8F3ED6A32B_TBasePassPSFCachedPointIndirectLightingPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C233B673B73AD5C3DA45AB58558A2FEAF1AB5A7AA_FVelocityPSC89A3E8742CC125CAF8FEB3824D895F0E057EC90CC98E6311AC1581B96A09EEE8AE8F6960285B5A2_TBasePassPSFCachedVolumeIndirectLightingPolicyA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C80D0A4694439F865D3CC508893BCA55969638F38_TShadowDepthVSVertexShadowDepth_PerspectiveCorrect566268C17842BE32F7F4196A64F1F860A951687BC004ABA017AA57991204B7B624FFD889C3B24A57_TBasePassPSFCachedVolumeIndirectLightingPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C588D69EC55B53A1F6EF1FDFE007D13A68C0DD945_TLightMapDensityPSFNoLightMapPolicyC84C3C8B1FA855658F9C0A2A371DDABD1F79452E0E6A1E8C16C0AF9964CF3FEFC1B82F1F3B567770_TLightMapDensityVSTLightMapPolicyLQC84C3C8B1FA855658F9C0A2A371DDABD1F79452E436509D3C31F9011DB1B52E8E02F2100F14082F9_TBasePassVSTLightMapPolicyHQD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279CE573C2FA544614368F38DB987E943642455C304_FLandscapePhysicalMaterialVS9BD56FDC1A69F5A3842C3E86AD24E497CDE01F1CDE0D5BCEA7EC56FCFAF6FE24C7902B1E6C1A2354_TBasePassPSFNoLightMapPolicySkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C3C0FD33120C8575A512698C01E1EBF84CB90BE73_TBasePassVSFCachedVolumeIndirectLightingPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD627952DA8047FE3873ACFEEB67FCFF3AF5DF1AA7C5C8_TShadowDepthPSPixelShadowDepth_OnePassPointLightF449D5DEDCF833608913E6CD8B760EAB37A055871C20FE0F6421C3566B37C59CBA77F6639400AC09_TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly566268C17842BE32F7F4196A64F1F860A951687B860900EDBECB877A088A2E4A829C4D0BA92DB982_TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD627960D5E6FFDE96A687BE1C1A2ED9EDE815F8E41839_TShadowDepthVSVertexShadowDepth_VirtualShadowMap566268C17842BE32F7F4196A64F1F860A951687BB4ECC9EA8AA550391078AD8904E08901E177AD2E_TShadowDepthVSVertexShadowDepth_OnePassPointLight566268C17842BE32F7F4196A64F1F860A951687B56E359529EA5F920092BA8DF37812C451EC3EEF6_TBasePassPSTLightMapPolicyLQA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C94FC918ED25A4366478C0CE664DD0F431FB434A6_TLightMapDensityPSTLightMapPolicyLQC84C3C8B1FA855658F9C0A2A371DDABD1F79452E0B66239385DAE6F5050046365A9D116D80E52224_TBasePassVSTLightMapPolicyLQD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD6279BFC5C974DD65E6DA17A7D3C21BFBF250BA30283F_TLightMapDensityVSTLightMapPolicyHQC84C3C8B1FA855658F9C0A2A371DDABD1F79452EB0E82574BC7F5C377B8E738E24BDE3D732363B44_TShadowDepthVSVertexShadowDepth_VirtualShadowMapPositionOnly566268C17842BE32F7F4196A64F1F860A951687B2206E6F09C16C096D9488323D49A0F7639FE2E34_FDebugViewModePS56838088095D59EE5193ECF20E85FE62298C7B9EE177622259CDB9DC1140CF61335F5353997EC8B6_TBasePassPSTLightMapPolicyHQSkylightA50322446B83A4AA2D12EFC7A6D5C9AEFA80435C25C2A51F6B76462E73EA9720145CE5233C11211C_TDepthOnlyVS<false>24730E33B4CBAAD6CC8E99A19D1BC1E6B4CB0B0AACA14F90957AEBF5BC1C2C3E6DB6BC750BA01CCD_FVelocityVSC89A3E8742CC125CAF8FEB3824D895F0E057EC90C043BB9FD7164B6E8DBD4123FD00693BC9B4513E_FDebugViewModeVS3D41E5A6CFCAEA88797E908D01A0A213270F85AA809CB80A6A7260721600DBFAB6C1E0001BD9B8AE_TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly566268C17842BE32F7F4196A64F1F860A951687B6EB2AEF0350E0D6AC5867CF6F9990BDA65424641_TBasePassVSFNoLightMapPolicyD04A42A3D7B4A6D063A7A38C2B9ADF7F0EFD62792677AEB94C74F9DCEF44AB17F94D82839B020A23_DepthPosOnlyNoPixelPipeline77E78BED1A1AECF5E6A7B716F216702EBC4CCE9C_VelocityPipeline870119D18CF0465BE0070A38FCB3F092A61618D2_DepthNoPixelPipeline24730E33B4CBAAD6CC8E99A19D1BC1E6B4CB0B0A_FGPUSpriteVertexFactoryB023D948191B883949FF744AF068D58B6674E0495C5BE91DA01DC2B25B1018F3EDA7A6FC7D1D30AEB9CA513CCBA4F1E3AF7D9556DD0F2FF45E951E1A_FNiagaraRibbonVertexFactory02111BEB92300CA1083426DF3B5036FB866E6D3DA5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966DE03DD13CEAD2D60503F2AAC85D4762994EF4025A5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966A5C2BD7C8E1CB8C2C0438E13767AF67A0D5B5966_TGPUSkinAPEXClothVertexFactoryDefault78B6E71606342DB0718C0CB5514BFF039A3BFC1D594A4B2FCC58950587792A2CD41332131D3786E2_FParticleSpriteVertexFactory0B9848D46CEFCCD36BD972B3DCD50B8535368BABF99E1B0FB635933CEEAC41CF9441DF5EA4A994CA9DAE5A7C55936FD50BC3B20BD063C1832A4D4247_TGPUSkinVertexFactoryUnlimited78B6E71606342DB0718C0CB5514BFF039A3BFC1D180376A7171B50BD465E9983F32BCB5A07542FE7_FVectorFieldVisualizationVertexFactory29E6C71148328626051CD3685ED4463389FCC050CC854D8E74FEAEF90804D69AF6B78BD07A141ACC_FNiagaraMeshVertexFactoryABADC3FDA7FFF8E984F9BD6ABC7F9CC89BF514854B3A20E0CA93D5CA5A60C16EF2EB14EA073FC9571BD81B2CBA1F364F28A837532353718EB814537B4B3A20E0CA93D5CA5A60C16EF2EB14EA073FC9574B3A20E0CA93D5CA5A60C16EF2EB14EA073FC957_FParticleBeamTrailVertexFactory713DBD8F3CB30EBEE7F1075062B25AE25537E1D1378BBDDEC2CEAC35A309C357B38D702E7981D5D3_TGPUSkinVertexFactoryDefault78B6E71606342DB0718C0CB5514BFF039A3BFC1D180376A7171B50BD465E9983F32BCB5A07542FE7_TGPUSkinAPEXClothVertexFactoryUnlimited78B6E71606342DB0718C0CB5514BFF039A3BFC1D594A4B2FCC58950587792A2CD41332131D3786E2_FGeometryCollectionVertexFactoryF791AC6341FF97FC6CF0C8483241C9BC3B55570949D716CAD02F0AC031CC93ACB2AFCB9C42E7DC4149D716CAD02F0AC031CC93ACB2AFCB9C42E7DC4149D716CAD02F0AC031CC93ACB2AFCB9C42E7DC41_FLandscapeXYOffsetVertexFactory10E569238A1467FCD7FB548253D74CF0ABE0F4F8B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FMeshParticleVertexFactory083F8367142CEF5680A007B3BEFDF4AD3B6626EEF773920348F231C490A74B1A551F8CE3ABF04791_FInstancedStaticMeshVertexFactory3B3DFB1FEDE34A7A85FB5103E7AD47D9FB2DAB05A163AB24C1DAF4D0703BC40B6B0C866D318AC9F8A163AB24C1DAF4D0703BC40B6B0C866D318AC9F8A163AB24C1DAF4D0703BC40B6B0C866D318AC9F8A163AB24C1DAF4D0703BC40B6B0C866D318AC9F8_FSplineMeshVertexFactory3B3DFB1FEDE34A7A85FB5103E7AD47D9FB2DAB05A747D67BD07743C1BEA1DE549F682B82EB7B9965_FLocalVertexFactory3B3DFB1FEDE34A7A85FB5103E7AD47D9FB2DAB05AC1A437FDC42E3432CC66409573A167E09487E70AC1A437FDC42E3432CC66409573A167E09487E70AC1A437FDC42E3432CC66409573A167E09487E70_FLandscapeVertexFactory10E569238A1467FCD7FB548253D74CF0ABE0F4F8B1684FBEF19B946A8709F4309D7CC4E5FC6044ADEBA49461CECB1EA5D21E2BF8918B91C7C3994DCEB1684FBEF19B946A8709F4309D7CC4E5FC6044ADB1684FBEF19B946A8709F4309D7CC4E5FC6044AD_FNiagaraSpriteVertexFactory983CF9980B73A474E8D7D8E01013CC0E6E16DAAE5957CFEE095AEFFBA7F83F09F020F15CF6555718EFF166204144512228FF7A163011544EEF3FD2265957CFEE095AEFFBA7F83F09F020F15CF65557185957CFEE095AEFFBA7F83F09F020F15CF6555718_Nanite::FVertexFactory7385151ADD4080DE340A31F56C59707655B6838D_FGeometryCacheVertexVertexFactory921F6B033EF261C9D21AB065EC0B6C351583BCAA76143182082C57C6F98756E7AE927ED26DD4479A76143182082C57C6F98756E7AE927ED26DD4479A_FLandscapeFixedGridVertexFactory10E569238A1467FCD7FB548253D74CF0ABE0F4F83F5F45F5620EF6411E27211E3D675CEA50B38DFBEBA49461CECB1EA5D21E2BF8918B91C7C3994DCE3F5F45F5620EF6411E27211E3D675CEA50B38DFB3F5F45F5620EF6411E27211E3D675CEA50B38DFB254810141414444414441444141414141444447401010101010131454444143314401310102044441615121414240444424141413131014344447443424144444444404444444444444444341414141424044444444444444442434141415101010110131313331213333434141423141342044444141413131343041413101015101010103561616135343434146461616161616146121316161606434343434441444444445151510101011310105361616161210004040404040404040404040404040434343434343434444434343434040404040404043434343404040404444424244444444344444424241412141444444424141414341414141414141414131313131314443444444444141414141414141414141414343434444444444444344404441414141444141414141414341414144414141414444414141414141334144244444414141432341414141413141414142412343424143434341434141444141413131313432444141412441413131344443414141212124212131314442122226141142210121212124244444444440414151015101530434101331414600144444451011015151515161616161610101010101505242131616161616111260101117044313131413143101410101010101015101010101030445101101010101010101010101010101010101010106001404044414040421213131344141010101010101010131010002431313141616161101016164642141313131212121212121212141444444444441402444444212121212121212121212121213121212121212121212121412121212121212121214344314110131313131616161616161616023144444444434144414141414242212121212121212121213121212121212121212121212121212121444442424243434341414441414141414444444444444444214421101313131313131616161606010121010101015101210140444444043424044424141315004444444444443434101313133214030404043414443414331443341433143314341434143314331433142214143314441441210431413141015101010146444444044464444444444044401415101510151015000101010101010101010101010110000444140404141210101000010101010101014444424201404444444444444444444444444444444444444444444444444444444444444444444444444404444444444444434144414141414342101313131212132322222212101010101000010101010144444242412101010101510151014101015101010101004444441415151040404043410004040404040404040404040404040434343434343434444434343434040404040404043434343404040404444424244444444344444424241412141444444424141414341414141414141414131313131314443444444444141414141414141414141414343434444444444444344404441414141444141414141414341414144414141414444414141414141334144244444414141432341414141413141414142412343424143434341434141444141413131313432444141412441413131344443414141212124212131314141010151515151515151515151010101010101010101515151515101510151015101510151010101010101015101616161616151015101510151015101510151013131515151510151010151016461414151010161617161636340431313131313131314422223141414101010101010000110000001300000013000000130000001300000013000000130000000C00000013000000130000000D00000008000000140000000F00000010000000080000000900000008000000230000001000000010000000090000000800000008000000100000001000000010000000100000000800000008000000080000001000000010000000CE00000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000120000001000000008000000080000000800000014000000140000001300000008000000100000000800000008000000080000000800000008000000080000001300000009000000140000000E00000013000000130000001300000013000000130000001300000008000000100000000900000008000000090000000800000008000000130000000900000008000000090000000800000009000000080000000C00000009000000080000000900000009000000090000000900000009000000080000000800000008000000080000000800000013000000100000001000000010000000130000001000000010000000100000001000000009000000090000000900000010000000100000001000000010000000080000001A00000014000000290000000D000000440000000B0000000B00000013000000130000000900000009000000090000001400000008000000090000000D0000000C00000010000000080000000800000028000000100000001000000010000000100000000900000008000000100000001000000010000000100000001000000009000000080000000800000008000000080000000D00000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000C000000080000000C00000013000000100000001000000010000000100000001000000010000000100000000D0000000C00000009000000080000000900000008000000090000000C0000000800000013000000260000000F000000110000000900000009000000090000000900000009000000100000001B0000001300000013000000130000001300000013000000090000000800000009000000080000000800000008000000140000001400000008000000090000000900000008000000080000001000000008000000080000001000000010000000290100001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000140000001000000010000000100000001000000009000000433AFC833894B7681A1D3DDBA35F7F5A9509A899000000000000000000000000000000000000000054BDFD528AA46A4E9413E044DCAC9A8F37A07E9D_101_101_4;
+[2023.04.18-15.04.05:226][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.04.18-15.04.05:226][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.04.18-15.04.05:226][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.04.18-15.04.05:226][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.04.18-15.04.05:226][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.04.18-15.04.05:546][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2023.04.18-15.04.05:725][  0]LogNetVersion: Bomberman 1.0.0, NetCL: 23058290, EngineNetVer: 30, GameNetVer: 0 (Checksum: 1406358106)
+[2023.04.18-15.04.06:971][  0]LogUObjectArray: 20936 objects as part of root set at end of initial load.
+[2023.04.18-15.04.06:971][  0]LogUObjectAllocator: 5786376 out of 0 bytes used by permanent object pool.
+[2023.04.18-15.04.06:971][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.04.18-15.04.07:078][  0]LogSlate: Border
+[2023.04.18-15.04.07:078][  0]LogSlate: BreadcrumbButton
+[2023.04.18-15.04.07:078][  0]LogSlate: Brushes.Title
+[2023.04.18-15.04.07:078][  0]LogSlate: Default
+[2023.04.18-15.04.07:078][  0]LogSlate: Icons.Save
+[2023.04.18-15.04.07:078][  0]LogSlate: Icons.Toolbar.Settings
+[2023.04.18-15.04.07:078][  0]LogSlate: ListView
+[2023.04.18-15.04.07:078][  0]LogSlate: SoftwareCursor_CardinalCross
+[2023.04.18-15.04.07:078][  0]LogSlate: SoftwareCursor_Grab
+[2023.04.18-15.04.07:078][  0]LogSlate: TableView.DarkRow
+[2023.04.18-15.04.07:078][  0]LogSlate: TableView.Row
+[2023.04.18-15.04.07:078][  0]LogSlate: TreeView
+[2023.04.18-15.04.07:567][  0]LogTurnkeySupport: Turnkey Device: Win64@DESKTOP-CCFVR42: (Name=DESKTOP-CCFVR42, Type=Computer, Status=Valid, , Flags="Device_InstallSoftwareValid")
+[2023.04.18-15.04.08:459][  0]LogPython: Using Python 3.9.7
+[2023.04.18-15.04.10:124][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.04.18-15.04.10:166][  0]LogMetasoundEngine: MetaSound Engine Initialized
+[2023.04.18-15.04.10:367][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.04.18-15.04.10:372][  0]LogUdpMessaging: Display: Added local interface '192.168.1.85' to multicast group '230.0.0.1:6666'
+[2023.04.18-15.04.10:383][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.04.18-15.04.10:770][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 8E1B90DF48101ECEEB36DDBE1C4D0DEF | Instance: F403CEB04C450B83508BCAA44A1E6B93 (DESKTOP-CCFVR42-15820).
+[2023.04.18-15.04.12:932][  0]LogOpenImageDenoise: OIDN starting up
+[2023.04.18-15.04.13:452][  0]SourceControl: Source control is disabled
+[2023.04.18-15.04.13:478][  0]SourceControl: Source control is disabled
+[2023.04.18-15.04.13:492][  0]SourceControl: Source control is disabled
+[2023.04.18-15.04.13:520][  0]LogUProjectInfo: Found projects:
+[2023.04.18-15.04.13:657][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.04.18-15.04.13:688][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.04.18-15.04.13:688][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.04.18-15.04.15:185][  0]LogCollectionManager: Loaded 0 collections in 0.003787 seconds
+[2023.04.18-15.04.15:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/Collections/' took 0.00s
+[2023.04.18-15.04.15:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/Developers/Jumbax/Collections/' took 0.00s
+[2023.04.18-15.04.15:187][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/Collections/' took 0.00s
+[2023.04.18-15.04.16:239][  0]LogEngine: Initializing Engine...
+[2023.04.18-15.04.16:262][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2023.04.18-15.04.16:292][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2023.04.18-15.04.16:300][  0]LogMaterial: Display: Missing cached shadermap for WireframeMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 0E9698C4697E872CBAA750A81F13B17C7CEA9AAD), compiling. Is special engine material.
+[2023.04.18-15.04.16:309][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: F94896208BB2C48320F28BA2B200D9B09C2924D7), compiling. Is special engine material.
+[2023.04.18-15.04.16:318][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationUnlitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: C69B3513A9BCE1B5877E8C1F14F444F2E516C54A), compiling. Is special engine material.
+[2023.04.18-15.04.16:334][  0]LogMaterial: Display: Missing cached shadermap for MAT_LevelColorationLitLightmapUV in PCD3D_SM6, Default, SM6 (DDC key hash: 6A6B6CA42A1CFE73D98380E44359090BD1019353), compiling. Is special engine material.
+[2023.04.18-15.04.16:342][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 7860C6F9C70533941C3C28714AFF4744F9ACB6BC), compiling. Is special engine material.
+[2023.04.18-15.04.16:352][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationUnlitMateri in PCD3D_SM6, Default, SM6 (DDC key hash: 8163769FA55201E2D8B7175BC0E56F9348F0AC32), compiling. Is special engine material.
+[2023.04.18-15.04.16:993][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.04.18-15.04.17:050][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.18-15.04.17:137][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.04.18-15.04.17:146][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.04.18-15.04.17:146][  0]LogInit: Texture streaming: Enabled
+[2023.04.18-15.04.17:185][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.1.1-23901901+++UE5+Release-5.1
+[2023.04.18-15.04.17:207][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.04.18-15.04.17:234][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.04.18-15.04.17:240][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.04.18-15.04.17:243][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2023.04.18-15.04.17:245][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2023.04.18-15.04.17:245][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2023.04.18-15.04.17:245][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2023.04.18-15.04.17:245][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2023.04.18-15.04.17:245][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.04.18-15.04.17:245][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.04.18-15.04.17:246][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.18-15.04.17:246][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.18-15.04.17:246][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.18-15.04.17:246][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.18-15.04.17:247][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.18-15.04.17:247][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.18-15.04.17:247][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.18-15.04.17:247][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.18-15.04.17:247][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.18-15.04.17:247][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.18-15.04.17:247][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.18-15.04.17:272][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.18-15.04.17:683][  0]LogAudioMixer: Display: Using Audio Hardware Device Altoparlanti (Echo Dot-S76 Stereo)
+[2023.04.18-15.04.17:686][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.18-15.04.17:714][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.18-15.04.17:714][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.18-15.04.17:718][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.04.18-15.04.17:718][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.18-15.04.17:720][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.18-15.04.17:720][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.04.18-15.04.17:720][  0]LogInit: FAudioDevice initialized.
+[2023.04.18-15.04.17:720][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.04.18-15.04.17:746][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.04.18-15.04.17:760][  0]LogLiveCoding: Display: Starting LiveCoding
+[2023.04.18-15.04.17:760][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: BombermanEditor Win64 Development
+[2023.04.18-15.04.17:762][  0]LogLiveCoding: Display: First instance in process group "UE_Bomberman_0xc1aa92c6", spawning console
+[2023.04.18-15.04.17:781][  0]LogLiveCoding: Display: Waiting for server
+[2023.04.18-15.04.18:928][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2023.04.18-15.04.18:977][  0]LogInit: Transaction tracking system initialized
+[2023.04.18-15.04.19:064][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/SourceControl/UncontrolledChangelists.json
+[2023.04.18-15.04.19:064][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2023.04.18-15.04.19:077][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.01282 seconds (Found 138 uncontrolled assets)
+[2023.04.18-15.04.19:162][  0]BlueprintLog: New page: Editor Load
+[2023.04.18-15.04.19:545][  0]LocalizationService: Localization service is disabled
+[2023.04.18-15.04.19:631][  0]TimingProfiler: Initialize
+[2023.04.18-15.04.19:634][  0]TimingProfiler: OnSessionChanged
+[2023.04.18-15.04.19:635][  0]LoadingProfiler: Initialize
+[2023.04.18-15.04.19:636][  0]LoadingProfiler: OnSessionChanged
+[2023.04.18-15.04.19:637][  0]NetworkingProfiler: Initialize
+[2023.04.18-15.04.19:639][  0]NetworkingProfiler: OnSessionChanged
+[2023.04.18-15.04.19:639][  0]MemoryProfiler: Initialize
+[2023.04.18-15.04.19:639][  0]MemoryProfiler: OnSessionChanged
+[2023.04.18-15.04.20:393][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/' took 0.02s
+[2023.04.18-15.04.20:699][  0]LogEditorDomain: Display: Class /Script/AnimationData.AnimationSequencerDataModel is imported by a package but does not exist in memory. EditorDomain keys for packages using it will be invalid if it still exists.
+	To clear this message, resave packages that use the deleted class, or load its module earlier than the packages that use it are referenced.
+[2023.04.18-15.04.20:967][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.04.18-15.04.21:275][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.04.18-15.04.21:283][  0]SourceControl: Source control is disabled
+[2023.04.18-15.04.21:284][  0]LogUnrealEdMisc: Loading editor; pre map load, took 37.252
+[2023.04.18-15.04.21:287][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.18-15.04.21:293][  0]LightingResults: New page: Lighting Build
+[2023.04.18-15.04.21:309][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.04.18-15.04.21:313][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.18-15.04.21:317][  0]MapCheck: New page: Map Check
+[2023.04.18-15.04.21:317][  0]LightingResults: New page: Lighting Build
+[2023.04.18-15.04.21:338][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.18-15.04.21:355][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.04.18-15.04.21:409][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2023.04.18-15.04.21:409][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.18-15.04.21:409][  0]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.04.18-15.04.21:414][  0]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.04.18-15.04.21:415][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.18-15.04.21:415][  0]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.04.18-15.04.22:686][  0]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.04.18-15.04.22:686][  0]LogWorldPartition: Display: WorldPartition initialize took 1.27 sec
+[2023.04.18-15.04.22:709][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.18-15.04.22:719][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.04.18-15.04.22:720][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.18-15.04.22:722][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,221ms to complete.
+[2023.04.18-15.04.22:722][  0]LogFileHelpers: Loading map 'ThirdPersonMap' took 1.437
+[2023.04.18-15.04.22:803][  0]LogUnrealEdMisc: Total Editor Startup Time, took 38.770
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: ================================================
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.18-15.04.22:803][  0]LogShaderCompilers: Display: ================================================
+[2023.04.18-15.04.22:976][  0]LogSlate: The tab "WwisePicker" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.04.18-15.04.22:976][  0]LogSlate: The tab "AudioSplineTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.04.18-15.04.23:014][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-15.04.23:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-15.04.23:033][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-15.04.23:041][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.18-15.04.23:058][  0]LogSlate: The tab "DummyTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.04.18-15.04.23:163][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:175][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:187][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:196][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:225][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:233][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:242][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:250][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:261][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:287][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.1/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.04.18-15.04.23:951][  0]LogSlate: The tab "AudioTools" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.04.18-15.04.23:951][  0]LogSlate: The tab "DummyTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.04.18-15.04.23:951][  0]LogSlate: The tab "DummyTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.04.18-15.04.23:951][  0]LogSlate: The tab "DummyTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.04.18-15.04.23:951][  0]LogSlate: The tab "DummyTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.04.18-15.04.23:951][  0]LogSlate: The tab "DummyTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.04.18-15.04.24:230][  0]LogSlate: Took 0.006871 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.04.18-15.04.24:239][  0]LogSlate: Took 0.006346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.04.18-15.04.24:253][  0]LogSlate: Took 0.006431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.04.18-15.04.24:260][  0]LogSlate: Took 0.005615 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.04.18-15.04.24:360][  0]LogViewport: Scene viewport resized to 1103x711, mode Windowed.
+[2023.04.18-15.04.24:475][  0]LogSlate: Took 0.007421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.18-15.04.25:904][  0]LogStall: Startup...
+[2023.04.18-15.04.25:907][  0]LogStall: Startup complete.
+[2023.04.18-15.04.25:945][  0]LogLoad: (Engine Initialization) Total time: 41.91 seconds
+[2023.04.18-15.04.25:945][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.04.18-15.04.26:129][  0]LogAssetRegistry: Asset discovery search completed in 22.6591 seconds
+[2023.04.18-15.04.26:161][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2023.04.18-15.04.26:173][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.04.18-15.04.55:770][ 16]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.04.18-15.04.55:783][ 16]LogContentBrowser: Creating deferred item: NewFolder
+[2023.04.18-15.04.55:793][ 17]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.04.18-15.05.01:792][348]LogContentBrowser: Attempting asset rename: NewFolder -> Bomberman
+[2023.04.18-15.05.01:792][348]LogContentBrowser: End creating deferred item NewFolder
+[2023.04.18-15.05.07:887][648]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.04.18-15.05.07:910][648]LogContentBrowser: Creating deferred item: NewFolder
+[2023.04.18-15.05.07:951][650]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.04.18-15.05.09:267][710]LogContentBrowser: Attempting asset rename: NewFolder -> Maps
+[2023.04.18-15.05.09:268][710]LogContentBrowser: End creating deferred item NewFolder
+[2023.04.18-15.05.15:421][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.04.18-15.05.15:423][992]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.04.18-15.05.15:424][992]Cmd: MAP LOAD FILE="../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.18-15.05.15:424][992]LightingResults: New page: Lighting Build
+[2023.04.18-15.05.15:424][992]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2023.04.18-15.05.15:451][992]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.18-15.05.15:451][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.18-15.05.15:453][992]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.04.18-15.05.15:454][992]MapCheck: New page: Map Check
+[2023.04.18-15.05.15:454][992]LightingResults: New page: Lighting Build
+[2023.04.18-15.05.15:463][992]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.18-15.05.15:466][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.04.18-15.05.15:475][992]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2023.04.18-15.05.15:475][992]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.18-15.05.15:476][992]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.04.18-15.05.15:476][992]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.04.18-15.05.15:476][992]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.18-15.05.15:476][992]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.04.18-15.05.15:511][992]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2023.04.18-15.05.15:511][992]LogWorldPartition: Display: WorldPartition initialize took 34 ms (total: 1.30 sec)
+[2023.04.18-15.05.15:564][992]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.18-15.05.15:578][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.04.18-15.05.15:592][992]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.18-15.05.15:593][992]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,341ms to complete.
+[2023.04.18-15.05.15:593][992]LogFileHelpers: Loading map 'ThirdPersonMap' took 0.168
+[2023.04.18-15.05.30:336][223]LogSlate: Window 'Save Level As' being destroyed
+[2023.04.18-15.05.30:445][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.04.18-15.05.30:466][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.18-15.05.30:483][223]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/7W/IRSZKTR3CWDJJT3G6OVJ37
+/Game/__ExternalActors__/Bomberman/Maps/Map0/E/GR/3AJP2WIAV5O99XDBM1SJRF
+/Game/__ExternalActors__/Bomberman/Maps/Map0/0/GW/834M3L02AS4B0TP6T0UOTY
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/UW/YBKXNXCND5S1FS5BJOKA1M
+/Game/__ExternalActors__/Bomberman/Maps/Map0/7/CT/DMO25RFWHL5ZDJ46R911JT
+/Game/__ExternalActors__/Bomberman/Maps/Map0/3/00/MFAN8WVXF1SGFZPKC4R3U3
+/Game/__ExternalActors__/Bomberman/Maps/Map0/B/QZ/54C02N01DD4TBNDFTQKWJ9
+/Game/__ExternalActors__/Bomberman/Maps/Map0/7/CX/4ZCR43CZQJNIJOKXHJ0I15
+/Game/__ExternalActors__/Bomberman/Maps/Map0/1/GO/K1VA3PCRBCTK0FJFTGHG6V
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/1S/5DCWHA90HU2HRV900J40AK
+/Game/__ExternalActors__/Bomberman/Maps/Map0/9/0L/YQZ3R5Z17O8AZB0B7DICI7
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/IB/25WRUTMEBAEDMV5VBRD2MX
+/Game/__ExternalActors__/Bomberman/Maps/Map0/6/PY/6LSBMXAEWGGDFXSTI6HJ6X
+/Game/__ExternalActors__/Bomberman/Maps/Map0/6/JF/3544RN0NIFQNXN9RQ0HF2A
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/99/BELJVTM8KDCL670OU2WAHG
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/RT/7GLV3XOA43YNDTCFVI1M59
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/TH/3R7Q65U57WPKPTVY60FOEK
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/3X/MA2K6P6UXWTMDYDZ69M37P
+/Game/__ExternalActors__/Bomberman/Maps/Map0/B/JR/3AH8UFFT3EI32GIBCK2G15
+/Game/__ExternalActors__/Bomberman/Maps/Map0/6/AJ/5SF8S45NP2EGMPPX305CV5
+/Game/__ExternalActors__/Bomberman/Maps/Map0/A/NP/FG86Q4QGSL381Z8HVSL0LI
+/Game/__ExternalActors__/Bomberman/Maps/Map0/0/R7/ND6FSO9H7CWF73IVAQ8WUM
+/Game/__ExternalActors__/Bomberman/Maps/Map0/A/B4/TA6JG45QQNDZGZRVD8GOFP
+/Game/__ExternalActors__/Bomberman/Maps/Map0/0/L7/AHTR3S17MU26DDXNJ7L9NJ
+/Game/__ExternalActors__/Bomberman/Maps/Map0/4/GQ/0EC9IPEB3GUXGZRBW8FKP2
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/17/UE8FESR80501P5NVBK9L6L
+/Game/__ExternalActors__/Bomberman/Maps/Map0/E/M6/FMB8OGLEOHI6F6DJ1SYDD0
+/Game/__ExternalActors__/Bomberman/Maps/Map0/A/W4/OQSZTHCJICHY2FNBS88WG4
+/Game/__ExternalActors__/Bomberman/Maps/Map0/7/FK/8RERBLLWW9A0HIJD6XG9H9
+/Game/__ExternalActors__/Bomberman/Maps/Map0/E/MQ/06Z2R9BEQGZ46TBPPJ1SM4
+/Game/__ExternalActors__/Bomberman/Maps/Map0/3/27/YG6SBY30907R3PS76JUGFV
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/QU/CGHBK6FVNTS3YI9BJ5QCFX
+/Game/__ExternalActors__/Bomberman/Maps/Map0/3/C8/E2O2T7R4FTKWTWFRZY8RGJ
+/Game/__ExternalActors__/Bomberman/Maps/Map0/7/X3/5OOIXQCO74KZPKD4VMA9GR
+/Game/__ExternalActors__/Bomberman/Maps/Map0/5/N7/X8E1030WACZCTI239NB1SI
+/Game/__ExternalActors__/Bomberman/Maps/Map0/9/YL/VXY3YL88QTFTW0XH8ZLV41
+/Game/__ExternalActors__/Bomberman/Maps/Map0/B/8R/IBLDYECWDU44OP35LN8KAU
+/Game/__ExternalActors__/Bomberman/Maps/Map0/5/U9/7JH5MVAPOZSX6TBFALWGXU
+/Game/__ExternalActors__/Bomberman/Maps/Map0/5/9F/IODKYE3XCLF6Q13L3SC537
+/Game/__ExternalActors__/Bomberman/Maps/Map0/4/AM/UGPLAU5ZEAVPQI7KJDHG31
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/A/LD/3ER1VSM0TQIXPSMUN1759M
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/A/CD/EL2KZKLXCXQOYUZD1RQRRH
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/B/CM/DYEPVEUZDOYOKK79HUC08M
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/6/I1/W08D1UZWLA3LPZFXCI5PCR
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/A/DL/2PDI26I9DUWJEB5B2DETSJ
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/C/AO/5WE2NDDSWAZ76JGYMIXT8G
+[2023.04.18-15.05.30:484][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-15.05.30:492][223]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.006751 seconds
+[2023.04.18-15.05.30:494][223]LogSerialization: UsePackageTrailer: 'true'
+[2023.04.18-15.05.30:495][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/2/7W/IRSZKTR3CWDJJT3G6OVJ37
+[2023.04.18-15.05.30:495][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/IRSZKTR3CWDJJT3G6OVJ37309682CD4AC0BDCD12DBA39DCD086463.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/2/7W/IRSZKTR3CWDJJT3G6OVJ37.uasset'
+[2023.04.18-15.05.30:499][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/E/GR/3AJP2WIAV5O99XDBM1SJRF
+[2023.04.18-15.05.30:499][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/3AJP2WIAV5O99XDBM1SJRF0B6815D04EBB080C4220AD9E4180C08F.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/E/GR/3AJP2WIAV5O99XDBM1SJRF.uasset'
+[2023.04.18-15.05.30:502][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/0/GW/834M3L02AS4B0TP6T0UOTY
+[2023.04.18-15.05.30:502][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/834M3L02AS4B0TP6T0UOTYCB2D18D7486032D40915259806103D68.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/0/GW/834M3L02AS4B0TP6T0UOTY.uasset'
+[2023.04.18-15.05.30:504][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/8/UW/YBKXNXCND5S1FS5BJOKA1M
+[2023.04.18-15.05.30:504][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/YBKXNXCND5S1FS5BJOKA1MDF5C43404BBC9BDD8A1B5790C14E1AD4.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/8/UW/YBKXNXCND5S1FS5BJOKA1M.uasset'
+[2023.04.18-15.05.30:507][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/7/CT/DMO25RFWHL5ZDJ46R911JT
+[2023.04.18-15.05.30:507][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/DMO25RFWHL5ZDJ46R911JT6D5F061E4F1721BDAACD15BA05B63FF9.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/7/CT/DMO25RFWHL5ZDJ46R911JT.uasset'
+[2023.04.18-15.05.30:511][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/3/00/MFAN8WVXF1SGFZPKC4R3U3
+[2023.04.18-15.05.30:511][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/MFAN8WVXF1SGFZPKC4R3U30A113CAD4BE8CD0829378FAE6A9E5A12.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/3/00/MFAN8WVXF1SGFZPKC4R3U3.uasset'
+[2023.04.18-15.05.30:515][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/B/QZ/54C02N01DD4TBNDFTQKWJ9
+[2023.04.18-15.05.30:515][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/54C02N01DD4TBNDFTQKWJ9DADC41144856C6AE2075FC89AC559C67.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/B/QZ/54C02N01DD4TBNDFTQKWJ9.uasset'
+[2023.04.18-15.05.30:517][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/7/CX/4ZCR43CZQJNIJOKXHJ0I15
+[2023.04.18-15.05.30:518][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/4ZCR43CZQJNIJOKXHJ0I152C4B987C4BB267A2E3B690AEBBF4BC11.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/7/CX/4ZCR43CZQJNIJOKXHJ0I15.uasset'
+[2023.04.18-15.05.30:520][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/1/GO/K1VA3PCRBCTK0FJFTGHG6V
+[2023.04.18-15.05.30:520][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/K1VA3PCRBCTK0FJFTGHG6V15AC18F94CBD8DE76B9932AA06B34E04.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/1/GO/K1VA3PCRBCTK0FJFTGHG6V.uasset'
+[2023.04.18-15.05.30:523][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/2/1S/5DCWHA90HU2HRV900J40AK
+[2023.04.18-15.05.30:523][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/5DCWHA90HU2HRV900J40AKE1980E5C43AAAD14444846A5EA739781.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/2/1S/5DCWHA90HU2HRV900J40AK.uasset'
+[2023.04.18-15.05.30:525][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/9/0L/YQZ3R5Z17O8AZB0B7DICI7
+[2023.04.18-15.05.30:525][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/YQZ3R5Z17O8AZB0B7DICI7E728D57549DCE7FC73153A8A97D1DC4C.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/9/0L/YQZ3R5Z17O8AZB0B7DICI7.uasset'
+[2023.04.18-15.05.30:528][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/2/IB/25WRUTMEBAEDMV5VBRD2MX
+[2023.04.18-15.05.30:528][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/25WRUTMEBAEDMV5VBRD2MXDF9F20264F977961754B80843964D705.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/2/IB/25WRUTMEBAEDMV5VBRD2MX.uasset'
+[2023.04.18-15.05.30:531][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/6/PY/6LSBMXAEWGGDFXSTI6HJ6X
+[2023.04.18-15.05.30:531][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/6LSBMXAEWGGDFXSTI6HJ6X8094F7E141849C894552DEA919B36EE5.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/6/PY/6LSBMXAEWGGDFXSTI6HJ6X.uasset'
+[2023.04.18-15.05.30:534][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/6/JF/3544RN0NIFQNXN9RQ0HF2A
+[2023.04.18-15.05.30:534][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/3544RN0NIFQNXN9RQ0HF2ACA2251D04A75CAECEBBEE1A948BAC712.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/6/JF/3544RN0NIFQNXN9RQ0HF2A.uasset'
+[2023.04.18-15.05.30:536][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/8/99/BELJVTM8KDCL670OU2WAHG
+[2023.04.18-15.05.30:536][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/BELJVTM8KDCL670OU2WAHG0BF6EDAC4828EBF1D43577B14B94EEC3.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/8/99/BELJVTM8KDCL670OU2WAHG.uasset'
+[2023.04.18-15.05.30:539][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/8/RT/7GLV3XOA43YNDTCFVI1M59
+[2023.04.18-15.05.30:539][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/7GLV3XOA43YNDTCFVI1M593EBD4A094C048F85094016BB6B884B11.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/8/RT/7GLV3XOA43YNDTCFVI1M59.uasset'
+[2023.04.18-15.05.30:542][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/8/TH/3R7Q65U57WPKPTVY60FOEK
+[2023.04.18-15.05.30:542][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/3R7Q65U57WPKPTVY60FOEK0C46B3F94A626D26300CF29335A37EB9.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/8/TH/3R7Q65U57WPKPTVY60FOEK.uasset'
+[2023.04.18-15.05.30:544][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/2/3X/MA2K6P6UXWTMDYDZ69M37P
+[2023.04.18-15.05.30:544][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/MA2K6P6UXWTMDYDZ69M37P4B508A0C41A0B9535121CBB95E6429F5.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/2/3X/MA2K6P6UXWTMDYDZ69M37P.uasset'
+[2023.04.18-15.05.30:547][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/B/JR/3AH8UFFT3EI32GIBCK2G15
+[2023.04.18-15.05.30:548][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/3AH8UFFT3EI32GIBCK2G1574C40A684D9F38E22765AC89B080E226.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/B/JR/3AH8UFFT3EI32GIBCK2G15.uasset'
+[2023.04.18-15.05.30:550][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/6/AJ/5SF8S45NP2EGMPPX305CV5
+[2023.04.18-15.05.30:550][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/5SF8S45NP2EGMPPX305CV53745CD9F459944FC947C37A4396F730A.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/6/AJ/5SF8S45NP2EGMPPX305CV5.uasset'
+[2023.04.18-15.05.30:552][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/A/NP/FG86Q4QGSL381Z8HVSL0LI
+[2023.04.18-15.05.30:553][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/FG86Q4QGSL381Z8HVSL0LI4594891341C58A09A77038AA28F0C9A8.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/A/NP/FG86Q4QGSL381Z8HVSL0LI.uasset'
+[2023.04.18-15.05.30:556][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/0/R7/ND6FSO9H7CWF73IVAQ8WUM
+[2023.04.18-15.05.30:556][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/ND6FSO9H7CWF73IVAQ8WUM4637740A404E6C000269E9A73BD5DEE6.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/0/R7/ND6FSO9H7CWF73IVAQ8WUM.uasset'
+[2023.04.18-15.05.30:558][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/A/B4/TA6JG45QQNDZGZRVD8GOFP
+[2023.04.18-15.05.30:558][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/TA6JG45QQNDZGZRVD8GOFPC70DBA5B40B28690ABB29786F85250A1.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/A/B4/TA6JG45QQNDZGZRVD8GOFP.uasset'
+[2023.04.18-15.05.30:561][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/0/L7/AHTR3S17MU26DDXNJ7L9NJ
+[2023.04.18-15.05.30:561][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/AHTR3S17MU26DDXNJ7L9NJF6D786674787371E8C353E8026F45D07.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/0/L7/AHTR3S17MU26DDXNJ7L9NJ.uasset'
+[2023.04.18-15.05.30:564][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/4/GQ/0EC9IPEB3GUXGZRBW8FKP2
+[2023.04.18-15.05.30:564][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/0EC9IPEB3GUXGZRBW8FKP28B787A7F44B353A1E6E5858B384E94A8.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/4/GQ/0EC9IPEB3GUXGZRBW8FKP2.uasset'
+[2023.04.18-15.05.30:567][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/2/17/UE8FESR80501P5NVBK9L6L
+[2023.04.18-15.05.30:567][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/UE8FESR80501P5NVBK9L6L20BAF725423C24460896C58FC37D57AF.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/2/17/UE8FESR80501P5NVBK9L6L.uasset'
+[2023.04.18-15.05.30:569][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/E/M6/FMB8OGLEOHI6F6DJ1SYDD0
+[2023.04.18-15.05.30:569][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/FMB8OGLEOHI6F6DJ1SYDD09B8E37F54F20D88A57B014917D900EDE.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/E/M6/FMB8OGLEOHI6F6DJ1SYDD0.uasset'
+[2023.04.18-15.05.30:572][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/A/W4/OQSZTHCJICHY2FNBS88WG4
+[2023.04.18-15.05.30:572][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/OQSZTHCJICHY2FNBS88WG4F51FD19149E27067FE743F8E5CB3C8EA.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/A/W4/OQSZTHCJICHY2FNBS88WG4.uasset'
+[2023.04.18-15.05.30:574][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/7/FK/8RERBLLWW9A0HIJD6XG9H9
+[2023.04.18-15.05.30:574][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/8RERBLLWW9A0HIJD6XG9H96603752C48709124CBB1B6A18B5BDEDE.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/7/FK/8RERBLLWW9A0HIJD6XG9H9.uasset'
+[2023.04.18-15.05.30:577][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/E/MQ/06Z2R9BEQGZ46TBPPJ1SM4
+[2023.04.18-15.05.30:577][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/06Z2R9BEQGZ46TBPPJ1SM4D5379AA3494D08D13F4AA4A368E5DD5D.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/E/MQ/06Z2R9BEQGZ46TBPPJ1SM4.uasset'
+[2023.04.18-15.05.30:580][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/3/27/YG6SBY30907R3PS76JUGFV
+[2023.04.18-15.05.30:580][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/YG6SBY30907R3PS76JUGFVFCF0C687447E45EF40E6A880C4F39290.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/3/27/YG6SBY30907R3PS76JUGFV.uasset'
+[2023.04.18-15.05.30:583][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/8/QU/CGHBK6FVNTS3YI9BJ5QCFX
+[2023.04.18-15.05.30:583][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/CGHBK6FVNTS3YI9BJ5QCFX00294E6C4E2741104931C293E84FB1E1.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/8/QU/CGHBK6FVNTS3YI9BJ5QCFX.uasset'
+[2023.04.18-15.05.30:585][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/3/C8/E2O2T7R4FTKWTWFRZY8RGJ
+[2023.04.18-15.05.30:585][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/E2O2T7R4FTKWTWFRZY8RGJ001F95034AA52CA73605CCACEC75AD86.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/3/C8/E2O2T7R4FTKWTWFRZY8RGJ.uasset'
+[2023.04.18-15.05.30:588][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/7/X3/5OOIXQCO74KZPKD4VMA9GR
+[2023.04.18-15.05.30:588][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/5OOIXQCO74KZPKD4VMA9GR02EF532845308AFFEFD5C8ACFF78CED7.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/7/X3/5OOIXQCO74KZPKD4VMA9GR.uasset'
+[2023.04.18-15.05.30:794][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/5/N7/X8E1030WACZCTI239NB1SI
+[2023.04.18-15.05.30:794][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/X8E1030WACZCTI239NB1SI49F3A39F4EAEF03C2774C7AFA5D4AF4C.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/5/N7/X8E1030WACZCTI239NB1SI.uasset'
+[2023.04.18-15.05.30:797][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/9/YL/VXY3YL88QTFTW0XH8ZLV41
+[2023.04.18-15.05.30:797][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/VXY3YL88QTFTW0XH8ZLV41A9F0EB1C4AF0558FB8EFA68D3DC59431.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/9/YL/VXY3YL88QTFTW0XH8ZLV41.uasset'
+[2023.04.18-15.05.30:800][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/B/8R/IBLDYECWDU44OP35LN8KAU
+[2023.04.18-15.05.30:800][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/IBLDYECWDU44OP35LN8KAUC43F92A64F9D432191A36CAB977C8482.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/B/8R/IBLDYECWDU44OP35LN8KAU.uasset'
+[2023.04.18-15.05.30:803][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/5/U9/7JH5MVAPOZSX6TBFALWGXU
+[2023.04.18-15.05.30:803][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/7JH5MVAPOZSX6TBFALWGXUF461D725470AE9158FB4AC92DEB78A94.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/5/U9/7JH5MVAPOZSX6TBFALWGXU.uasset'
+[2023.04.18-15.05.30:805][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/5/9F/IODKYE3XCLF6Q13L3SC537
+[2023.04.18-15.05.30:805][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/IODKYE3XCLF6Q13L3SC537B1BA56D74DD838D017F780BFCC742B93.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/5/9F/IODKYE3XCLF6Q13L3SC537.uasset'
+[2023.04.18-15.05.30:807][223]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Bomberman/Maps/Map0/4/AM/UGPLAU5ZEAVPQI7KJDHG31
+[2023.04.18-15.05.30:807][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/UGPLAU5ZEAVPQI7KJDHG31C51F7DF846E5BC4390E6FEABE06B3325.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalActors__/Bomberman/Maps/Map0/4/AM/UGPLAU5ZEAVPQI7KJDHG31.uasset'
+[2023.04.18-15.05.30:811][223]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Bomberman/Maps/Map0/A/LD/3ER1VSM0TQIXPSMUN1759M
+[2023.04.18-15.05.30:811][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/3ER1VSM0TQIXPSMUN1759MAB35C05C4641F5B7B61F9CAC9D03780C.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalObjects__/Bomberman/Maps/Map0/A/LD/3ER1VSM0TQIXPSMUN1759M.uasset'
+[2023.04.18-15.05.30:815][223]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Bomberman/Maps/Map0/A/CD/EL2KZKLXCXQOYUZD1RQRRH
+[2023.04.18-15.05.30:815][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/EL2KZKLXCXQOYUZD1RQRRH6E2CE55145EE18D71AEEEC82FD371014.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalObjects__/Bomberman/Maps/Map0/A/CD/EL2KZKLXCXQOYUZD1RQRRH.uasset'
+[2023.04.18-15.05.30:817][223]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Bomberman/Maps/Map0/B/CM/DYEPVEUZDOYOKK79HUC08M
+[2023.04.18-15.05.30:817][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/DYEPVEUZDOYOKK79HUC08M27C6A2C046042CF1DB34E3B697179B50.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalObjects__/Bomberman/Maps/Map0/B/CM/DYEPVEUZDOYOKK79HUC08M.uasset'
+[2023.04.18-15.05.30:819][223]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Bomberman/Maps/Map0/6/I1/W08D1UZWLA3LPZFXCI5PCR
+[2023.04.18-15.05.30:819][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/W08D1UZWLA3LPZFXCI5PCRC8725C6A4D83DA24190DB4810C4E862F.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalObjects__/Bomberman/Maps/Map0/6/I1/W08D1UZWLA3LPZFXCI5PCR.uasset'
+[2023.04.18-15.05.30:821][223]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Bomberman/Maps/Map0/A/DL/2PDI26I9DUWJEB5B2DETSJ
+[2023.04.18-15.05.30:821][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/2PDI26I9DUWJEB5B2DETSJ49E431B647634A7D3527A1AB60DC7907.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalObjects__/Bomberman/Maps/Map0/A/DL/2PDI26I9DUWJEB5B2DETSJ.uasset'
+[2023.04.18-15.05.30:824][223]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Bomberman/Maps/Map0/C/AO/5WE2NDDSWAZ76JGYMIXT8G
+[2023.04.18-15.05.30:824][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/5WE2NDDSWAZ76JGYMIXT8G8C7318D54260FED6E40E3FA3FB730024.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/__ExternalObjects__/Bomberman/Maps/Map0/C/AO/5WE2NDDSWAZ76JGYMIXT8G.uasset'
+[2023.04.18-15.05.30:828][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 344 ms
+[2023.04.18-15.05.30:832][223]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/7W/IRSZKTR3CWDJJT3G6OVJ37
+/Game/__ExternalActors__/Bomberman/Maps/Map0/E/GR/3AJP2WIAV5O99XDBM1SJRF
+/Game/__ExternalActors__/Bomberman/Maps/Map0/0/GW/834M3L02AS4B0TP6T0UOTY
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/UW/YBKXNXCND5S1FS5BJOKA1M
+/Game/__ExternalActors__/Bomberman/Maps/Map0/7/CT/DMO25RFWHL5ZDJ46R911JT
+/Game/__ExternalActors__/Bomberman/Maps/Map0/3/00/MFAN8WVXF1SGFZPKC4R3U3
+/Game/__ExternalActors__/Bomberman/Maps/Map0/B/QZ/54C02N01DD4TBNDFTQKWJ9
+/Game/__ExternalActors__/Bomberman/Maps/Map0/7/CX/4ZCR43CZQJNIJOKXHJ0I15
+/Game/__ExternalActors__/Bomberman/Maps/Map0/1/GO/K1VA3PCRBCTK0FJFTGHG6V
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/1S/5DCWHA90HU2HRV900J40AK
+/Game/__ExternalActors__/Bomberman/Maps/Map0/9/0L/YQZ3R5Z17O8AZB0B7DICI7
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/IB/25WRUTMEBAEDMV5VBRD2MX
+/Game/__ExternalActors__/Bomberman/Maps/Map0/6/PY/6LSBMXAEWGGDFXSTI6HJ6X
+/Game/__ExternalActors__/Bomberman/Maps/Map0/6/JF/3544RN0NIFQNXN9RQ0HF2A
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/99/BELJVTM8KDCL670OU2WAHG
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/RT/7GLV3XOA43YNDTCFVI1M59
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/TH/3R7Q65U57WPKPTVY60FOEK
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/3X/MA2K6P6UXWTMDYDZ69M37P
+/Game/__ExternalActors__/Bomberman/Maps/Map0/B/JR/3AH8UFFT3EI32GIBCK2G15
+/Game/__ExternalActors__/Bomberman/Maps/Map0/6/AJ/5SF8S45NP2EGMPPX305CV5
+/Game/__ExternalActors__/Bomberman/Maps/Map0/A/NP/FG86Q4QGSL381Z8HVSL0LI
+/Game/__ExternalActors__/Bomberman/Maps/Map0/0/R7/ND6FSO9H7CWF73IVAQ8WUM
+/Game/__ExternalActors__/Bomberman/Maps/Map0/A/B4/TA6JG45QQNDZGZRVD8GOFP
+/Game/__ExternalActors__/Bomberman/Maps/Map0/0/L7/AHTR3S17MU26DDXNJ7L9NJ
+/Game/__ExternalActors__/Bomberman/Maps/Map0/4/GQ/0EC9IPEB3GUXGZRBW8FKP2
+/Game/__ExternalActors__/Bomberman/Maps/Map0/2/17/UE8FESR80501P5NVBK9L6L
+/Game/__ExternalActors__/Bomberman/Maps/Map0/E/M6/FMB8OGLEOHI6F6DJ1SYDD0
+/Game/__ExternalActors__/Bomberman/Maps/Map0/A/W4/OQSZTHCJICHY2FNBS88WG4
+/Game/__ExternalActors__/Bomberman/Maps/Map0/7/FK/8RERBLLWW9A0HIJD6XG9H9
+/Game/__ExternalActors__/Bomberman/Maps/Map0/E/MQ/06Z2R9BEQGZ46TBPPJ1SM4
+/Game/__ExternalActors__/Bomberman/Maps/Map0/3/27/YG6SBY30907R3PS76JUGFV
+/Game/__ExternalActors__/Bomberman/Maps/Map0/8/QU/CGHBK6FVNTS3YI9BJ5QCFX
+/Game/__ExternalActors__/Bomberman/Maps/Map0/3/C8/E2O2T7R4FTKWTWFRZY8RGJ
+/Game/__ExternalActors__/Bomberman/Maps/Map0/7/X3/5OOIXQCO74KZPKD4VMA9GR
+/Game/__ExternalActors__/Bomberman/Maps/Map0/5/N7/X8E1030WACZCTI239NB1SI
+/Game/__ExternalActors__/Bomberman/Maps/Map0/9/YL/VXY3YL88QTFTW0XH8ZLV41
+/Game/__ExternalActors__/Bomberman/Maps/Map0/B/8R/IBLDYECWDU44OP35LN8KAU
+/Game/__ExternalActors__/Bomberman/Maps/Map0/5/U9/7JH5MVAPOZSX6TBFALWGXU
+/Game/__ExternalActors__/Bomberman/Maps/Map0/5/9F/IODKYE3XCLF6Q13L3SC537
+/Game/__ExternalActors__/Bomberman/Maps/Map0/4/AM/UGPLAU5ZEAVPQI7KJDHG31
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/A/LD/3ER1VSM0TQIXPSMUN1759M
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/A/CD/EL2KZKLXCXQOYUZD1RQRRH
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/B/CM/DYEPVEUZDOYOKK79HUC08M
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/6/I1/W08D1UZWLA3LPZFXCI5PCR
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/A/DL/2PDI26I9DUWJEB5B2DETSJ
+/Game/__ExternalObjects__/Bomberman/Maps/Map0/C/AO/5WE2NDDSWAZ76JGYMIXT8G
+[2023.04.18-15.05.30:842][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.04.18-15.05.30:849][223]LogSavePackage: Moving output files for package: /Game/Bomberman/Maps/Map0
+[2023.04.18-15.05.30:849][223]LogSavePackage: Moving '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Saved/Map02D28D1DC4397AD3C47CD59A3A509A726.tmp' to '../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/Bomberman/Maps/Map0.umap'
+[2023.04.18-15.05.30:884][223]LogFileHelpers: Saving map 'Map0' took 0.538
+[2023.04.18-15.05.30:884][223]Cmd: MAP LOAD FILE="../../../../../../Users/Jumbax/Documents/Unreal Projects/Bomberman/Content/Bomberman/Maps/Map0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.04.18-15.05.30:884][223]LightingResults: New page: Lighting Build
+[2023.04.18-15.05.30:884][223]LoadErrors: New page: Loading map: Map0.umap
+[2023.04.18-15.05.30:887][223]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.18-15.05.30:887][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.18-15.05.30:891][223]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2023.04.18-15.05.30:892][223]MapCheck: New page: Map Check
+[2023.04.18-15.05.30:892][223]LightingResults: New page: Lighting Build
+[2023.04.18-15.05.30:899][223]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.18-15.05.30:903][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.04.18-15.05.30:904][223]LogWorld: UWorld::CleanupWorld for Map0, bSessionEnded=true, bCleanupResources=true
+[2023.04.18-15.05.30:904][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.18-15.05.30:914][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.04.18-15.05.30:921][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.04.18-15.05.30:929][223]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map0'.
+[2023.04.18-15.05.30:929][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.18-15.05.30:930][223]LogAIModule: Creating AISystem for world Map0
+[2023.04.18-15.05.30:930][223]LogWorldPartition: ULevel::OnLevelLoaded(Map0)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.04.18-15.05.30:930][223]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.04.18-15.05.30:930][223]LogWorldPartition: UWorldPartition::Initialize(Asset=Map0, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.04.18-15.05.30:966][223]LogContentBundle: [Container: Map0] Creating new contrainer.
+[2023.04.18-15.05.30:966][223]LogWorldPartition: Display: WorldPartition initialize took 35 ms (total: 1.34 sec)
+[2023.04.18-15.05.30:979][223]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.18-15.05.30:991][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.04.18-15.05.31:002][223]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.18-15.05.31:002][223]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,32ms to complete.
+[2023.04.18-15.05.31:002][223]LogFileHelpers: Loading map 'Map0' took 0.118
+[2023.04.18-15.05.31:006][223]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.World /Game/Bomberman/Maps/Map0.Map0
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_39
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_61
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_49
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_51
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_43
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.DirectionalLight_1
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_33
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.SkyLight /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.SkyLight_0
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_55
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_54
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.VolumetricCloud /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.VolumetricCloud_1
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_60
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_53
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_34
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_45
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1594956423
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_42
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_37
+[2023.04.18-15.05.31:007][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_41
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_59
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_52
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_36
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_35
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_48
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.PlayerStart_0
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.WorldPartitionMiniMap /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.WorldPartitionMiniMap_0
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_50
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_47
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.ExponentialHeightFog /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.ExponentialHeightFog_1
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_58
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.PostProcessVolume_0
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_57
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_44
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.TextRenderActor_1
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_46
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_40
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_56
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.SkyAtmosphere /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.SkyAtmosphere_1
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_38
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.ActorFolder_UID_ECA4956E-419DA4E5-BAB7F389-537BCB14
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.ActorFolder_UID_98087B84-44A89373-CC4763B3-845E270A
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.ActorFolder_UID_08A10B05-4C95868C-663DE39E-E4343813
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.ActorFolder_UID_8CD39494-49A9ED1D-3F209CA6-9A64B60F
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.ActorFolder_UID_5DDF0B27-4F9C8B2C-5DABA199-9B167516
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.ActorFolder_UID_8CD33C9A-4E75AD59-B95486AC-740693D6
+[2023.04.18-15.05.31:008][223]LogContentValidation: Display: Validating /Script/Engine.WorldDataLayers /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.WorldDataLayers
+[2023.04.18-15.05.50:102][222]Cmd: DELETE
+[2023.04.18-15.05.50:102][222]Cmd: ACTOR DELETE
+[2023.04.18-15.05.50:108][222]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.50:119][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.04.18-15.05.50:121][222]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2023.04.18-15.05.50:891][289]Cmd: DELETE
+[2023.04.18-15.05.50:891][289]Cmd: ACTOR DELETE
+[2023.04.18-15.05.50:893][289]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.50:904][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.18-15.05.50:905][289]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.04.18-15.05.51:342][326]Cmd: DELETE
+[2023.04.18-15.05.51:342][326]Cmd: ACTOR DELETE
+[2023.04.18-15.05.51:343][326]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.51:352][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.05.51:353][326]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.04.18-15.05.51:783][364]Cmd: DELETE
+[2023.04.18-15.05.51:783][364]Cmd: ACTOR DELETE
+[2023.04.18-15.05.51:784][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.51:793][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.05.51:794][364]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.04.18-15.05.52:238][403]Cmd: DELETE
+[2023.04.18-15.05.52:238][403]Cmd: ACTOR DELETE
+[2023.04.18-15.05.52:240][403]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.52:249][403]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.05.52:250][403]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.04.18-15.05.53:427][514]Cmd: DELETE
+[2023.04.18-15.05.53:427][514]Cmd: ACTOR DELETE
+[2023.04.18-15.05.53:430][514]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.53:440][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.18-15.05.53:441][514]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.04.18-15.05.54:097][575]Cmd: DELETE
+[2023.04.18-15.05.54:097][575]Cmd: ACTOR DELETE
+[2023.04.18-15.05.54:099][575]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.54:108][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.05.54:109][575]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.04.18-15.05.54:502][606]Cmd: DELETE
+[2023.04.18-15.05.54:502][606]Cmd: ACTOR DELETE
+[2023.04.18-15.05.54:504][606]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.54:513][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.04.18-15.05.54:514][606]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.04.18-15.05.54:933][639]Cmd: DELETE
+[2023.04.18-15.05.54:933][639]Cmd: ACTOR DELETE
+[2023.04.18-15.05.54:935][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.54:944][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.04.18-15.05.54:945][639]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.04.18-15.05.55:597][696]Cmd: DELETE
+[2023.04.18-15.05.55:597][696]Cmd: ACTOR DELETE
+[2023.04.18-15.05.55:599][696]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.55:608][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.04.18-15.05.55:610][696]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.04.18-15.05.56:108][736]Cmd: DELETE
+[2023.04.18-15.05.56:108][736]Cmd: ACTOR DELETE
+[2023.04.18-15.05.56:110][736]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.56:119][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.05.56:121][736]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.04.18-15.05.56:867][805]Cmd: DELETE
+[2023.04.18-15.05.56:867][805]Cmd: ACTOR DELETE
+[2023.04.18-15.05.56:870][805]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.56:881][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.04.18-15.05.56:883][805]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2023.04.18-15.05.57:503][861]Cmd: DELETE
+[2023.04.18-15.05.57:503][861]Cmd: ACTOR DELETE
+[2023.04.18-15.05.57:505][861]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.57:514][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.05.57:516][861]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.04.18-15.05.59:403][ 17]Cmd: DELETE
+[2023.04.18-15.05.59:403][ 17]Cmd: ACTOR DELETE
+[2023.04.18-15.05.59:405][ 17]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.05.59:414][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.05.59:415][ 17]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.04.18-15.06.00:065][ 38]Cmd: DELETE
+[2023.04.18-15.06.00:065][ 38]Cmd: ACTOR DELETE
+[2023.04.18-15.06.00:067][ 38]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.00:078][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.04.18-15.06.00:079][ 38]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.04.18-15.06.00:661][ 54]Cmd: DELETE
+[2023.04.18-15.06.00:661][ 54]Cmd: ACTOR DELETE
+[2023.04.18-15.06.00:663][ 54]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.00:672][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.04.18-15.06.00:674][ 54]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.04.18-15.06.01:545][ 78]Cmd: DELETE
+[2023.04.18-15.06.01:545][ 78]Cmd: ACTOR DELETE
+[2023.04.18-15.06.01:546][ 78]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.01:556][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.18-15.06.01:557][ 78]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.04.18-15.06.02:344][103]Cmd: DELETE
+[2023.04.18-15.06.02:344][103]Cmd: ACTOR DELETE
+[2023.04.18-15.06.02:346][103]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.02:355][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.04.18-15.06.02:357][103]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.04.18-15.06.03:181][129]Cmd: DELETE
+[2023.04.18-15.06.03:181][129]Cmd: ACTOR DELETE
+[2023.04.18-15.06.03:182][129]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.03:194][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.18-15.06.03:195][129]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.04.18-15.06.04:141][160]Cmd: DELETE
+[2023.04.18-15.06.04:141][160]Cmd: ACTOR DELETE
+[2023.04.18-15.06.04:143][160]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.04:154][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.06.04:155][160]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.04.18-15.06.04:936][185]Cmd: DELETE
+[2023.04.18-15.06.04:936][185]Cmd: ACTOR DELETE
+[2023.04.18-15.06.04:938][185]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.04:949][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.18-15.06.04:950][185]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.04.18-15.06.05:317][194]Cmd: DELETE
+[2023.04.18-15.06.05:317][194]Cmd: ACTOR DELETE
+[2023.04.18-15.06.05:319][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.05:328][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.06.05:329][194]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.04.18-15.06.05:930][213]Cmd: DELETE
+[2023.04.18-15.06.05:930][213]Cmd: ACTOR DELETE
+[2023.04.18-15.06.05:932][213]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.05:941][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.04.18-15.06.05:943][213]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.04.18-15.06.07:165][255]Cmd: DELETE
+[2023.04.18-15.06.07:166][255]Cmd: ACTOR DELETE
+[2023.04.18-15.06.07:167][255]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.04.18-15.06.07:177][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.04.18-15.06.07:179][255]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.04.18-15.06.19:651][725]Cmd: DELETE
+[2023.04.18-15.06.19:651][725]Cmd: ACTOR DELETE
+[2023.04.18-15.06.19:653][725]LogEditorActor: Deleted Actor: TextRenderActor
+[2023.04.18-15.06.19:664][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.04.18-15.06.19:666][725]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2023.04.18-15.06.22:846][852]Cmd: DELETE
+[2023.04.18-15.06.22:846][852]Cmd: ACTOR DELETE
+[2023.04.18-15.06.22:846][852]LogEditorActor: Cannot delete actor WorldDataLayers /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.WorldDataLayers: Actor is not user managed
+[2023.04.18-15.06.22:855][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.18-15.06.22:857][852]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2023.04.18-15.06.23:652][884]Cmd: DELETE
+[2023.04.18-15.06.23:652][884]Cmd: ACTOR DELETE
+[2023.04.18-15.06.23:652][884]LogEditorActor: Cannot delete actor WorldDataLayers /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.WorldDataLayers: Actor is not user managed
+[2023.04.18-15.06.23:662][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.04.18-15.06.23:662][884]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2023.04.18-15.06.24:334][911]Cmd: DELETE
+[2023.04.18-15.06.24:334][911]Cmd: ACTOR DELETE
+[2023.04.18-15.06.24:334][911]LogEditorActor: Cannot delete actor WorldPartitionMiniMap /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.WorldPartitionMiniMap_0: Actor is not user managed
+[2023.04.18-15.06.24:344][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.18-15.06.24:345][911]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2023.04.18-15.06.37:069][406]Cmd: DELETE
+[2023.04.18-15.06.37:069][406]Cmd: ACTOR DELETE
+[2023.04.18-15.06.37:776][433]Cmd: DELETE
+[2023.04.18-15.06.37:776][433]Cmd: ACTOR DELETE
+[2023.04.18-15.06.38:187][449]Cmd: DELETE
+[2023.04.18-15.06.38:187][449]Cmd: ACTOR DELETE
+[2023.04.18-15.06.38:188][449]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2023.04.18-15.06.38:625][466]Cmd: DELETE
+[2023.04.18-15.06.38:625][466]Cmd: ACTOR DELETE
+[2023.04.18-15.06.42:404][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.04.18-15.06.42:423][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.18-15.06.42:626][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.04.18-15.06.42:635][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.04.18-15.06.42:644][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.18-15.06.42:697][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 273 ms (total: 618 ms)
+[2023.04.18-15.06.54:229][839]LogDerivedDataCache: C:/Users/Jumbax/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:58.991 and deleted 14 files with total size 0 MiB. Scanned 30055 files in 28626 folders with total size 3601 MiB.
+[2023.04.18-15.07.22:252][708]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.04.18-15.07.22:260][708]LogContentBrowser: Creating deferred item: NewFolder
+[2023.04.18-15.07.22:267][709]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.04.18-15.07.25:967][850]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2023.04.18-15.07.25:968][850]LogContentBrowser: End creating deferred item NewFolder
+[2023.04.18-15.07.32:773][262]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.18-15.07.32:774][262]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.18-15.07.32:774][262]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.18-15.07.32:856][262]LogSlate: Took 0.007921 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.18-15.07.56:527][224]Running C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject" -game -rocket -progress
+[2023.04.18-15.07.56:708][224]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/Jumbax/Documents/Unreal Projects/Bomberman/Bomberman.uproject" -game -rocket -progress
+[2023.04.18-15.07.58:723][224]Log file: C:\Users\Jumbax\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.04.18-15.07.59:729][224]
+[2023.04.18-15.07.59:729][224]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.04.18-15.07.59:729][224]See the log file for detailed information
+[2023.04.18-15.07.59:729][224]
+[2023.04.18-15.07.59:729][224]Discovering modules, targets and source code for project...
+[2023.04.18-15.08.07:882][224]Binding IntelliSense data...
+[2023.04.18-15.08.32:517][224]Binding IntelliSense data... 50%
+[2023.04.18-15.08.32:518][224]Binding IntelliSense data... 100%
+[2023.04.18-15.08.32:619][224]Writing project files...
+[2023.04.18-15.08.45:226][224]Writing project files... 67%
+[2023.04.18-15.08.45:226][224]Writing project files... 100%
+[2023.04.18-15.08.45:735][224]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.04.18-15.08.45:779][224]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.04.18-15.08.45:819][224]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.45:853][225]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.46:188][226]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.46:520][227]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.46:853][228]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.47:186][229]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.47:519][230]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.47:853][231]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.48:187][232]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.48:520][233]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.48:853][234]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.49:187][235]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.49:521][236]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.49:854][237]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.50:190][238]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.50:525][239]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.50:868][240]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.51:191][241]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.51:543][242]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.51:855][243]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.52:192][244]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.52:534][245]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.52:858][246]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.53:191][247]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.08.54:281][248]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.04.18-15.09.33:571][359]LogLiveCoding: Display:    Creazione della libreria C:\Users\Jumbax\Documents\Unreal Projects\Bomberman\Binaries\Win64\UnrealEditor-Bomberman.patch_0.lib e dell'oggetto C:\Users\Jumbax\Documents\Unreal Projects\Bomberman\Binaries\Win64\UnrealEditor-Bomberman.patch_0.exp
+[2023.04.18-15.09.34:029][360]LogClass: UPackage /Script/Bomberman Reload.
+[2023.04.18-15.09.34:030][360]LogClass: Could not find existing class GM_GameMode in package /Script/Bomberman for reload, assuming new or modified class
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_39 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/E/MQ/06Z2R9BEQGZ46TBPPJ1SM4.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_61 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/E/M6/FMB8OGLEOHI6F6DJ1SYDD0.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_49 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/E/GR/3AJP2WIAV5O99XDBM1SJRF.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_51 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/B/8R/IBLDYECWDU44OP35LN8KAU.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_55 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/A/B4/TA6JG45QQNDZGZRVD8GOFP.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_54 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/9/YL/VXY3YL88QTFTW0XH8ZLV41.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_60 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/8/UW/YBKXNXCND5S1FS5BJOKA1M.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_53 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/8/TH/3R7Q65U57WPKPTVY60FOEK.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_34 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/8/RT/7GLV3XOA43YNDTCFVI1M59.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_45 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/8/QU/CGHBK6FVNTS3YI9BJ5QCFX.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_41 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/7/CX/4ZCR43CZQJNIJOKXHJ0I15.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_59 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/7/CT/DMO25RFWHL5ZDJ46R911JT.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_52 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/6/PY/6LSBMXAEWGGDFXSTI6HJ6X.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_35 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/6/AJ/5SF8S45NP2EGMPPX305CV5.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_48 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/5/U9/7JH5MVAPOZSX6TBFALWGXU.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_50 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/4/GQ/0EC9IPEB3GUXGZRBW8FKP2.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_47 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/4/AM/UGPLAU5ZEAVPQI7KJDHG31.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_58 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/3/27/YG6SBY30907R3PS76JUGFV.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_57 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/2/IB/25WRUTMEBAEDMV5VBRD2MX.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_44 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/2/3X/MA2K6P6UXWTMDYDZ69M37P.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.TextRenderActor_1 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/2/1S/5DCWHA90HU2HRV900J40AK.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_46 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/2/17/UE8FESR80501P5NVBK9L6L.PackageMetaData in its package
+[2023.04.18-15.09.34:175][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_40 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/1/GO/K1VA3PCRBCTK0FJFTGHG6V.PackageMetaData in its package
+[2023.04.18-15.09.34:176][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_56 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/0/R7/ND6FSO9H7CWF73IVAQ8WUM.PackageMetaData in its package
+[2023.04.18-15.09.34:176][360]LogWorldPartition: Actor /Game/Bomberman/Maps/Map0.Map0:PersistentLevel.StaticMeshActor_38 is unreachable without properly detaching object /Game/__ExternalActors__/Bomberman/Maps/Map0/0/GW/834M3L02AS4B0TP6T0UOTY.PackageMetaData in its package
+[2023.04.18-15.09.34:179][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.04.18-15.09.34:235][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.04.18-15.09.34:244][361]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 2 classes unchanged
+[2023.04.18-15.09.34:245][361]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: ================================================
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: Total job queries 125, among them cache hits 20 (16.00%)
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: Tracking 105 distinct input hashes that result in 85 distinct outputs (80.95%)
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: RAM used: 0.89 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.18-15.11.07:398][884]LogShaderCompilers: Display: ================================================
+[2023.04.18-15.11.12:574][425]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.18-15.11.12:574][425]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.18-15.11.12:574][425]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.04.18-15.11.32:794][361]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.04.18-15.11.32:802][361]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.04.18-15.11.32:808][361]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.04.18-15.11.32:832][363]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.04.18-15.11.39:347][611]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_GameMode
+[2023.04.18-15.11.39:361][611]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.04.18-15.11.54:086][192]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Bomberman/Blueprints/BP_GameMode.BP_GameMode
+[2023.04.18-15.11.54:089][192]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.18-15.11.56:092][192]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...

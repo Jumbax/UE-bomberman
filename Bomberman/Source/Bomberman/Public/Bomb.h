@@ -14,7 +14,6 @@ class BOMBERMAN_API ABomb : public AActor
 	
 public:
 	ABomb();
-	virtual void Tick(float DeltaTime) override;
 
 protected:
 	virtual void BeginPlay() override;
@@ -43,5 +42,6 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Component")
 	UParticleSystem* ParticleSystem = nullptr;
 
-	bool Exploding = false;
+	UPROPERTY(BlueprintReadOnly)
+	bool bIsExploding = false;
 };

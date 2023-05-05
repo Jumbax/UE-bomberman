@@ -7,6 +7,7 @@
 #include "InputActionValue.h"
 #include "BombermanPlayer.generated.h"
 
+
 UCLASS()
 class BOMBERMAN_API ABombermanPlayer : public ACharacter
 {
@@ -31,11 +32,14 @@ class BOMBERMAN_API ABombermanPlayer : public ACharacter
 	TSubclassOf<class ABomb> Bomb;
 
 protected:
+	virtual void BeginPlay();
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	void Move(const FInputActionValue& Value);
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+	
 	UFUNCTION(Server, Reliable)
 	void DropBomb(const FInputActionValue& Value);
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	virtual void BeginPlay();
+	
 	virtual void AddBomb();
 
 	FTimerHandle ReChargeBombTimerHandle;
@@ -48,29 +52,30 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
 	int32 MaxBombsNum = 3;
 	
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Settings")
-	int32 BombsNum;
+	UPROPERTY(Replicated, VisibleAnywhere, BlueprintReadWrite, Category = "Settings")
+	int32 BombsNum = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
 	float ReChargeBombTime = 3.f;
 	
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Settings")
-	bool IsInvincible = false;
+	UPROPERTY(Replicated, VisibleAnywhere, BlueprintReadWrite, Category = "Settings")
+	bool bIsInvincible = false;
+
+	UPROPERTY(Replicated, BlueprintReadOnly)
+	bool bIsDead = false;
 
 public:
 	ABombermanPlayer();
 
-	//UFUNCTION(Server, Reliable)
+	UFUNCTION(Server, Reliable)
 	virtual void Death();
-	//UFUNCTION(NetMulticast, Reliable)
+
+	bool IsDead() const { return bIsDead; }
+	bool IsInvincible() const { return bIsInvincible; }
 	virtual void ActiveSuperSpeedPowerUp(const float Duration);
-	//UFUNCTION(Server, Reliable)
 	virtual void DeactiveSuperSpeedPowerUp();
-	//UFUNCTION(Server, Reliable)
 	virtual void ActiveInvinciblePowerUp(const float Duration);
-	//UFUNCTION(Server, Reliable)
 	virtual void DeactiveInvinciblePowerUp();
-	//UFUNCTION(Server, Reliable)
 	virtual void ActiveMoreBombsPowerUp();
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }

@@ -5,11 +5,9 @@
 #include "BombermanPlayer.h"
 #include "Components/BoxComponent.h"
 
-// Sets default values
 APowerUp::APowerUp()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 
 	SceneRoot = CreateDefaultSubobject<USceneComponent>("SceneRoot");
 	RootComponent = SceneRoot;
@@ -24,19 +22,10 @@ APowerUp::APowerUp()
 	bReplicates = true;
 }
 
-// Called when the game starts or when spawned
 void APowerUp::BeginPlay()
 {
 	Super::BeginPlay();
 	BoxCollision->OnComponentBeginOverlap.AddDynamic(this, &APowerUp::OnOverlapBegin);
-	BoxCollision->OnComponentEndOverlap.AddDynamic(this, &APowerUp::OnOverlapEnd);
-}
-
-// Called every frame
-void APowerUp::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
 }
 
 void APowerUp::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
@@ -48,10 +37,10 @@ void APowerUp::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Other
 		switch (Type)
 		{
 		case Option1:
-			Player->ActiveSuperSpeedPowerUp(Duration);
+			Player->ActiveSuperSpeedPowerUp(SuperSpeedDuration);
 			break;
 		case Option2:
-			Player->ActiveInvinciblePowerUp(Duration);
+			Player->ActiveInvinciblePowerUp(InvincibleDuration);
 			break;
 		case Option3:
 			Player->ActiveMoreBombsPowerUp();
@@ -63,10 +52,4 @@ void APowerUp::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Other
 
 		Destroy();
 	}
-}
-
-void APowerUp::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
-	int32 OtherBodyIndex)
-{
-	
 }

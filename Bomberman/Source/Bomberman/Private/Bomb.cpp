@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Bomb.h"
+#include "BombermanPlayer.h"
 #include "Components/SphereComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetSystemLibrary.h"
@@ -8,7 +9,7 @@
 
 ABomb::ABomb()
 {
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 	SceneRoot = CreateDefaultSubobject<USceneComponent>("SceneRoot");
 	RootComponent = SceneRoot;
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>("StaticMeshComponent");
@@ -28,11 +29,6 @@ void ABomb::BeginPlay()
 	StartTimer();
 }
 
-void ABomb::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
 
 void ABomb::StartTimer()
 {
@@ -48,11 +44,11 @@ void ABomb::Explode_Implementation()
 
 	if (GetLocalRole() == ROLE_Authority)
 	{
-		Exploding = true;
+		bIsExploding = true;
 
 		TArray<AActor*> ActorsToCollidingWith;
 		TArray< TEnumAsByte<EObjectTypeQuery>> ObjectTypes;
-		//ObjectTypes.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_Pawn));
+		ObjectTypes.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_Pawn));
 		ObjectTypes.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_GameTraceChannel1));
 		ObjectTypes.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_GameTraceChannel2));
 		TArray<AActor*> ActorToIgnore;
@@ -63,7 +59,7 @@ void ABomb::Explode_Implementation()
 		{
 			if (ABomb* OtherBomb = Cast<ABomb>(Actor))
 			{
-				if (!OtherBomb->Exploding)
+				if (!OtherBomb->bIsExploding)
 				{
 					OtherBomb->Explode();
 				}
@@ -71,6 +67,10 @@ void ABomb::Explode_Implementation()
 			else if (AWall* Wall = Cast<AWall>(Actor))
 			{
 				Wall->GetDamagedByBomb();
+			}
+			else if (ABombermanPlayer* Player = Cast<ABombermanPlayer>(Actor))
+			{
+				Player->Death();
 			}
 		}
 	}

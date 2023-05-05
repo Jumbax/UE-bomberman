@@ -29,7 +29,7 @@ protected:
 	UBoxComponent* BoxCollision = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
-	bool IsIndestructible = false;
+	bool bIsIndestructible = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Component")
 	UParticleSystem* ParticleSystem = nullptr;
@@ -47,8 +47,6 @@ protected:
 	TSubclassOf<class APowerUp> Death;
 
 public:
-	virtual void Tick(float DeltaTime) override;
-
 	UFUNCTION(NetMulticast, Reliable)
 	virtual void GetDamagedByBomb();
 

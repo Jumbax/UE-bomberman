@@ -1,23 +1,24 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "Menu.h"
 #include "Components/EditableText.h"
 
-void UMenu::SetTimer(int32 InMinutes, int32 InSeconds)
+void UMenu::SetTimerText(const int32 InMinutes, const int32 InSeconds)
 {
+	if (InSeconds <= 9)
+	{
+		FString SecondsStr = TEXT("0");
+		SecondsStr.AppendInt(InSeconds);
+		Seconds->SetText(FText::FromString(SecondsStr));
+		return;
+	}
+
 	Minutes->SetText(FText::AsNumber(InMinutes));
 	Seconds->SetText(FText::AsNumber(InSeconds));
 }
 
-void UMenu::SetLifesCount(int32 PlayerID, int32 InLifes)
+void UMenu::SetVictoriesCountText(const int32 InPlayer1VictoriesCount, const int32 InPlayer2VictoriesCount)
 {
-	if (PlayerID == 0)
-	{
-		Player1Lifes->SetText(FText::AsNumber(InLifes));
-	}
-	else
-	{
-		Player2Lifes->SetText(FText::AsNumber(InLifes));
-	}
+	Player1VictoriesCount->SetText(FText::AsNumber(InPlayer1VictoriesCount));
+	Player2VictoriesCount->SetText(FText::AsNumber(InPlayer2VictoriesCount));
 }

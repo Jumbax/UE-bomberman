@@ -2,15 +2,19 @@
 
 
 #include "BombermanPlayer.h"
+#include "BombermanPlayerState.h"
+#include "BombermanController.h"
 #include "Bomb.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "EnhancedInputComponent.h"
-#include "EnhancedInputSubsystems.h"
+#include "GM_GameMode.h"
+#include "Kismet/GameplayStatics.h"
 #include "Net/UnrealNetwork.h"
 
 ABombermanPlayer::ABombermanPlayer()
@@ -95,9 +99,8 @@ void ABombermanPlayer::DropBomb_Implementation(const FInputActionValue& Value)
 	{
 		if (BombsNum > 0)
 		{
-			FActorSpawnParameters SpawnParameters;
-			FVector SpawnPoint = FVector(GetActorLocation().X, GetActorLocation().Y, 8.5f);
-			GetWorld()->SpawnActor<ABomb>(Bomb, SpawnPoint, FRotator(0.f, 0.f, 0.0), SpawnParameters);
+			const FVector SpawnPoint = FVector(GetActorLocation().X, GetActorLocation().Y, 8.5f);
+			GetWorld()->SpawnActor<ABomb>(Bomb, SpawnPoint, FRotator(0.f, 0.f, 0.0));
 			BombsNum--;
 			GetWorldTimerManager().SetTimer(ReChargeBombTimerHandle, this, &ABombermanPlayer::AddBomb, ReChargeBombTime, false);
 		}
@@ -106,12 +109,13 @@ void ABombermanPlayer::DropBomb_Implementation(const FInputActionValue& Value)
 
 void ABombermanPlayer::AddBomb()
 {
-	if (BombsNum >= MaxBombsNum)
+	BombsNum = BombsNum >= MaxBombsNum ? BombsNum : BombsNum + 1;
+	if (BombsNum < MaxBombsNum)
 	{
-		GetWorldTimerManager().ClearTimer(ReChargeBombTimerHandle);
+		GetWorldTimerManager().SetTimer(ReChargeBombTimerHandle, this, &ABombermanPlayer::AddBomb, ReChargeBombTime, false);
 		return;
 	}
-	BombsNum++;
+	GetWorldTimerManager().ClearTimer(ReChargeBombTimerHandle);
 }
 
 void ABombermanPlayer::ActiveSuperSpeedPowerUp(const float Duration)
@@ -128,13 +132,13 @@ void ABombermanPlayer::DeactiveSuperSpeedPowerUp()
 
 void ABombermanPlayer::ActiveInvinciblePowerUp(const float Duration)
 {
-	IsInvincible = true;
+	bIsInvincible = true;
 	GetWorldTimerManager().SetTimer(InvincibleTimerHandle, this, &ABombermanPlayer::DeactiveInvinciblePowerUp, Duration, false);
 }
 
 void ABombermanPlayer::DeactiveInvinciblePowerUp()
 {
-	IsInvincible = false;
+	bIsInvincible = false;
 	GetWorldTimerManager().ClearTimer(InvincibleTimerHandle);
 }
 
@@ -143,7 +147,26 @@ void ABombermanPlayer::ActiveMoreBombsPowerUp()
 	BombsNum += 3;
 }
 
-void ABombermanPlayer::Death()
+void ABombermanPlayer::Death_Implementation()
 {
-	
+	DisableInput(Cast<APlayerController>(GetController()));
+	SetActorHiddenInGame(true);
+	bIsDead = true;
+	if (GetLocalRole() == ROLE_Authority)
+	{
+		AGM_GameMode* GameMode = Cast<AGM_GameMode>(UGameplayStatics::GetGameMode(GetWorld()));
+		if (GameMode)
+		{
+			GameMode->SetGameWinner();
+		}
+	}
+}
+
+void ABombermanPlayer::GetLifetimeReplicatedProps(TArray <FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(ABombermanPlayer, BombsNum);
+	DOREPLIFETIME(ABombermanPlayer, bIsInvincible);
+	DOREPLIFETIME(ABombermanPlayer, bIsDead);
 }

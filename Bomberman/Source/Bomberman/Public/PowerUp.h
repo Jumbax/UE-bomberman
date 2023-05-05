@@ -23,7 +23,6 @@ class BOMBERMAN_API APowerUp : public AActor
 	
 public:
 	APowerUp();
-	virtual void Tick(float DeltaTime) override;
 
 protected:
 	virtual void BeginPlay() override;
@@ -41,8 +40,11 @@ protected:
 	TEnumAsByte<EPowerUpType> Type;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
-	float Duration = 0.f;
+	float SuperSpeedDuration = 0.f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
+	float InvincibleDuration = 0.f;
+	
 	UFUNCTION(Category = "Collision")
 		virtual void OnOverlapBegin(
 			UPrimitiveComponent* OverlappedComp,
@@ -51,11 +53,4 @@ protected:
 			int32 OtherBodyIndex,
 			bool bFromSweep,
 			const FHitResult& SweepResult);
-
-	UFUNCTION(Category = "Collision")
-		virtual void OnOverlapEnd(
-			UPrimitiveComponent* OverlappedComp,
-			AActor* OtherActor,
-			UPrimitiveComponent* OtherComp,
-			int32 OtherBodyIndex);
 };

@@ -4,30 +4,25 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+
 #include "Menu.generated.h"
 
 UCLASS()
 class BOMBERMAN_API UMenu : public UUserWidget
 {
 	GENERATED_BODY()
-	
-public:
 
-	UFUNCTION(BlueprintCallable)
-	void SetTimer(int32 InMinutes, int32 InSeconds);
-	UFUNCTION(BlueprintCallable)
-	void SetLifesCount(int32 PlayerID, int32 InLifes);
+public:
+	void SetTimerText(const int32 InMinutes, const int32 InSeconds);
+	void SetVictoriesCountText(const int32 InPlayer1VictoriesCount, const int32 InPlayer2VictoriesCount);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (BindWidget))
 	class UEditableText* Minutes;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (BindWidget))
 	class UEditableText* Seconds;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (BindWidget))
-	class UEditableText* Player1Txt;
+	class UEditableText* Player1VictoriesCount;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (BindWidget))
-	class UEditableText* Player1Lifes;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (BindWidget))
-	class UEditableText* Player2Txt;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (BindWidget))
-	class UEditableText* Player2Lifes;
+	class UEditableText* Player2VictoriesCount;
 };

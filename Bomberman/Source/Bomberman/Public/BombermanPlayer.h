@@ -58,7 +58,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
 	float ReChargeBombTime = 3.f;
 	
-	UPROPERTY(Replicated, VisibleAnywhere, BlueprintReadWrite, Category = "Settings")
+	UPROPERTY(Replicated, BlueprintReadOnly)
 	bool bIsInvincible = false;
 
 	UPROPERTY(Replicated, BlueprintReadOnly)

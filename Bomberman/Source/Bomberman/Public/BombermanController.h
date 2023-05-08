@@ -22,10 +22,13 @@ public:
 
 	UFUNCTION(Client, Reliable)
 	virtual void SpawnScoreboard();
+	
 	UFUNCTION(Client, Reliable)
 	virtual void SetVictoriesCountScoreboard(const int32 Player1VictoriesCount, const int32 Player2VictoriesCount);
+	
 	UFUNCTION(Client, Reliable)
 	virtual void SetVictoriesCountMenu(const int32 Player1VictoriesCount, const int32 Player2VictoriesCount);
+	
 	UFUNCTION(Client, Reliable)
 	virtual void SetWinningPlayer(const int32 PlayerID);
 

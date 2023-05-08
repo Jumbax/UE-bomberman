@@ -25,7 +25,6 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Players")
 	TArray<FVector> SpawnLocations;
 
-
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Players")
 	TSubclassOf<APawn> BombermanPlayerClass = nullptr;
 

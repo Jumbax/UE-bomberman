@@ -2,6 +2,22 @@
 
 #include "Menu.h"
 #include "Components/EditableText.h"
+#include "Components/CanvasPanel.h"
+
+void UMenu::NativeConstruct()
+{
+	PlayerPanels.Add(Player1Panel);
+	PlayerPanels.Add(Player2Panel);
+}
+
+void UMenu::SetPlayerPanelsVisibility(const int32 PlayersInGame)
+{
+	for (size_t i = 0; i < PlayersInGame; i++)
+	{
+		PlayerPanels[i]->SetVisibility(ESlateVisibility::Visible);
+	}
+}
+
 
 void UMenu::SetTimerText(const int32 InMinutes, const int32 InSeconds)
 {

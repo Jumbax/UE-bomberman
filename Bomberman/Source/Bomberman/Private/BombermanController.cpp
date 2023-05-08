@@ -5,6 +5,7 @@
 #include "Blueprint/UserWidget.h"
 #include "BombermanGameInstance.h"
 #include "Menu.h"
+#include "Net/UnrealNetwork.h"
 #include "Scoreboard.h"
 
 void ABombermanController::BeginPlay()

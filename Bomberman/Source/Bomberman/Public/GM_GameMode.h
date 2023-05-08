@@ -25,8 +25,6 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Players")
 	TArray<FVector> SpawnLocations;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Players")
-	int32 PlayersInGame = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Players")
 	TSubclassOf<APawn> BombermanPlayerClass = nullptr;
@@ -35,4 +33,7 @@ protected:
 
 public:
 	virtual void SetGameWinner();
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Players")
+	int32 PlayersInGame = 0;
 };

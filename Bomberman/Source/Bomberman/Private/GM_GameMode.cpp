@@ -2,11 +2,10 @@
 
 
 #include "GM_GameMode.h"
+#include "BombermanController.h"
 #include "BombermanGameInstance.h"
 #include "BombermanPlayer.h"
 #include "BombermanPlayerState.h"
-#include "BombermanController.h"
-#include "Kismet/GameplayStatics.h"
 
 AGM_GameMode::AGM_GameMode()
 {
